@@ -1,0 +1,26 @@
+id: neuroethics-policy-brief
+title: Neuroethics policy brief
+level: research
+objective: Produce a sourced policy brief on one defined neurotechnology governance issue.
+prerequisite_skills:
+- ethics-neurotechnology
+- research-methodology
+- scientific-writing
+expected_hours: 16–30h
+inputs:
+- Primary/authoritative policy sources and selected scientific papers
+tools: Markdown, citation manager or plain references
+deliverables:
+- 1,500–2,500 word brief
+- stakeholder map
+- evidence table
+suggested_extensions:
+- Comparative jurisdiction analysis
+- counterargument section
+evaluation_criteria:
+- Claims traceable to sources
+- facts vs recommendations separated
+- uncertainty stated
+common_failure_modes:
+- Writing broad moral claims without defining the technology
+safety: No legal advice; cite jurisdiction and document type.

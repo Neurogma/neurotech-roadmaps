@@ -1,0 +1,27 @@
+id: neuroimaging-fundamentals
+title: Neuroimaging fundamentals
+domain: neuroimaging
+level: intermediate
+description: Core concepts across MRI, fMRI, PET, MEG and fNIRS, focusing on measurement
+  physics, spatial/temporal scales and inference.
+learning_objectives:
+- Compare major non-invasive neuroimaging modalities by measurement principle.
+- Explain spatial and temporal resolution as properties of a measurement system, not
+  a single quality score.
+- Read a basic imaging methods section and identify inferential assumptions.
+prerequisites:
+- neuroscience-basics
+- neuroanatomy-basics
+- statistics-inference
+- python-scientific
+estimated_hours: "30\u201350"
+resources:
+- dataset-openneuro
+- standard-bids
+evidence:
+- quiz
+- paper_critique
+- notebook
+common_misconceptions:
+- Spatial resolution alone determines scientific usefulness.
+exercise: Create a modality matrix for EEG, MEG, fNIRS, fMRI and PET.

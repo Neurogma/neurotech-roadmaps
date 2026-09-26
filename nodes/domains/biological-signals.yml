@@ -1,0 +1,24 @@
+id: biological-signals
+title: Biological signals
+domain: biological-signals
+level: foundation
+description: A shared foundation for EEG, MEG, EMG, ECoG, intracortical and related
+  physiological measurements.
+learning_objectives:
+- Compare source, sensor and spatial scale across major neural/physiological modalities.
+- Explain noise, reference and volume-conduction concepts.
+- Choose an appropriate analysis abstraction for a given signal.
+prerequisites:
+- physiology-neural
+- signal-processing
+estimated_hours: "18\u201330"
+resources:
+- software-mne
+evidence:
+- quiz
+- explanation
+- notebook
+common_misconceptions:
+- All biosignals provide equivalent access to neural information.
+ethics: Data source and consent conditions matter.
+exercise: Create a modality comparison matrix with source, sensor, bandwidth and invasiveness.

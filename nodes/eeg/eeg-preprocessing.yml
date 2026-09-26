@@ -1,0 +1,28 @@
+id: eeg-preprocessing
+title: EEG preprocessing
+domain: EEG
+level: intermediate
+description: 'A reproducible EEG preprocessing workflow: import, montage, bad-channel
+  handling, filtering, event extraction, epoching and artifact strategy.'
+learning_objectives:
+- Build a documented preprocessing pipeline that can be rerun from raw data.
+- Justify filter settings and artifact decisions for a defined task.
+- Track exclusions and retain enough metadata to reproduce outputs.
+prerequisites:
+- eeg-fundamentals
+- signal-processing
+- python-scientific
+estimated_hours: "30\u201350"
+resources:
+- software-mne
+- software-mne-bids
+evidence:
+- notebook
+- reproducible_experiment
+- code_review
+common_misconceptions:
+- There is one universally correct EEG preprocessing pipeline.
+safety: Use public data for self-directed learning.
+ethics: Record data license and any participant restrictions.
+exercise: Preprocess a public motor-imagery dataset and compare PSDs before/after
+  each major step.

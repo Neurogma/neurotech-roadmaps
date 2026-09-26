@@ -1,0 +1,28 @@
+id: neuromodulation-fundamentals
+title: Neuromodulation fundamentals
+domain: neuromodulation
+level: advanced
+description: Conceptual foundations of electrical, magnetic, pharmacological and other
+  interventions that modulate nervous-system activity, with emphasis on mechanisms
+  and evidence.
+learning_objectives:
+- Differentiate modulation from recording and decoding.
+- Compare broad classes of neuromodulation by mechanism and invasiveness.
+- Interpret evidence with attention to indication, dose/parameter context and study
+  design.
+prerequisites:
+- physiology-neural
+- experimental-design
+estimated_hours: "30\u201350"
+evidence:
+- paper_critique
+- written_plan
+- oral_explanation
+common_misconceptions:
+- A stimulation paradigm that works in one study has a universal effect across people
+  and conditions.
+safety: No operational stimulation protocols are included; real stimulation is not
+  a casual DIY activity.
+ethics: Discuss consent, risk, access and evidence quality.
+exercise: Build an evidence table comparing a non-invasive and an implanted neuromodulation
+  approach without providing operational stimulation parameters.

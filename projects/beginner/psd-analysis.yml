@@ -1,0 +1,27 @@
+id: psd-analysis
+title: Power spectral density analysis
+level: beginner
+objective: Estimate and interpret the PSD of synthetic and public EEG signals while exposing windowing choices.
+prerequisite_skills:
+- signal-processing
+- python-scientific
+expected_hours: 6–10h
+inputs:
+- Synthetic multisine
+- public EEG segment
+tools: SciPy, MNE, NumPy
+deliverables:
+- Notebook
+- comparison figure
+- parameter table
+suggested_extensions:
+- Compare Welch settings
+- Add confidence bands
+evaluation_criteria:
+- Known synthetic frequencies are recovered
+- settings documented
+- interpretation bounded
+common_failure_modes:
+- Comparing spectra with inconsistent scaling
+- Naming a band as a diagnosis
+safety: Software/public data only.

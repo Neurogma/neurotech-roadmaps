@@ -1,0 +1,62 @@
+id: neuroimaging
+title: I want to work on neuroimaging
+audience: Learners interested in MRI/fMRI, PET, MEG, fNIRS and related brain-measurement
+  workflows.
+prerequisites:
+- neuroscience-basics
+- neuroanatomy-basics
+- statistics-inference
+- python-scientific
+destination_outcomes:
+- Compare measurement principles and resolution trade-offs across modalities.
+- Use a public BIDS-organized dataset with documented provenance.
+- Interpret imaging findings with attention to preprocessing, confounding and inference.
+estimated_hours:
+  explorer: "8\u201315"
+  builder: "80\u2013130"
+  researcher: "180\u2013320+"
+core_path:
+- neuroscience-basics
+- neuroanatomy-basics
+- probability
+- statistics-inference
+- python-scientific
+- neuroimaging-fundamentals
+- scientific-writing
+- research-methodology
+optional_branches:
+- fnirs
+projects:
+- neuroimaging-comparison
+- neural-data-science-analysis
+papers:
+- paper-bids
+- paper-eeg-bids
+datasets:
+- dataset-openneuro
+- dataset-dandi
+resources:
+- standard-bids
+- software-mne
+- software-mne-bids
+starting_assumptions:
+- The path is research-analysis oriented, not radiological or clinical training.
+minimum_viable_path: Select one public BIDS dataset, document its acquisition and
+  metadata, reproduce a basic QC/summary analysis and state inferential limits.
+deeper_path: Add modality-specific preprocessing, group analysis, source modeling
+  or multimodal fusion with appropriate validation.
+common_misconceptions:
+- A brain image does not directly reveal a mental state; interpretation requires a
+  chain of measurement and inference.
+- Resolution is multidimensional and cannot be reduced to one number.
+typical_failure_modes:
+- Untracked preprocessing, unplanned multiple comparisons and ignoring dataset-specific
+  access or consent constraints.
+safety: Clinical image interpretation and patient data require appropriate professional
+  and institutional context.
+ethics: Imaging data can remain sensitive after de-identification; follow dataset
+  access, consent and sharing terms.
+research_directions:
+- Multimodal fusion, individual differences, computational imaging and reproducible
+  group analysis.
+next_steps: Choose a modality or move deeper into neural data science.

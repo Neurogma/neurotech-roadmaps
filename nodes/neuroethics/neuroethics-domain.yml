@@ -1,0 +1,27 @@
+id: neuroethics-domain
+title: Neuroethics in practice
+domain: neuroethics
+level: advanced
+description: Ethical and governance analysis for sensing, decoding, interfacing and
+  neuromodulation, connected to concrete technological cases.
+learning_objectives:
+- Analyze autonomy, mental privacy, agency, fairness and access in a neurotechnology
+  case.
+- Distinguish technical safeguards from governance measures.
+- Construct a balanced policy brief using primary or authoritative sources.
+prerequisites:
+- ethics-neurotechnology
+- research-methodology
+estimated_hours: "25\u201345"
+resources:
+- policy-unesco-neuroethics
+evidence:
+- paper_critique
+- written_plan
+- oral_explanation
+common_misconceptions:
+- Technical feasibility settles normative questions.
+ethics: The domain itself requires careful source attribution and non-sensational
+  framing.
+exercise: Compare two governance approaches to neural data retention and identify
+  trade-offs.

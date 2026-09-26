@@ -1,0 +1,28 @@
+id: neural-data-science-analysis
+title: Neural data science analysis
+level: research
+objective: Create a metadata-aware, subject-safe analysis pipeline with reproducible reporting.
+prerequisite_skills:
+- neural-data-science
+- research-methodology
+expected_hours: 30–50h
+inputs:
+- Public BIDS or DANDI dataset
+tools: Python, MNE, scikit-learn, version control
+deliverables:
+- Pipeline repo
+- config
+- results table
+- data provenance
+- report
+suggested_extensions:
+- Cross-dataset validation
+- uncertainty analysis
+evaluation_criteria:
+- Subject leakage prevented
+- provenance complete
+- clean-run documented
+common_failure_modes:
+- Ignoring dataset structure
+- Best-run reporting
+safety: Respect access, license and consent constraints.

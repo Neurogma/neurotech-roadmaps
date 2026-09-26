@@ -1,0 +1,62 @@
+id: neuromodulation
+title: I want to understand neuromodulation
+audience: Learners who want a scientifically grounded map of nervous-system modulation
+  methods and the evidence around them.
+prerequisites:
+- neuroscience-basics
+- physiology-neural
+- research-methodology
+destination_outcomes:
+- Differentiate recording, decoding and modulation at the system level.
+- Compare broad neuromodulation classes by mechanism and evidence type.
+- Critically appraise claims without turning the learning path into a stimulation
+  protocol.
+estimated_hours:
+  explorer: "6\u201312"
+  builder: "40\u201370"
+  researcher: "100\u2013180+"
+core_path:
+- neuroscience-basics
+- physiology-neural
+- probability
+- statistics-inference
+- scientific-writing
+- research-methodology
+- experimental-design
+- ethics-neurotechnology
+- neuromodulation-fundamentals
+- neurotechnology-governance
+optional_branches:
+- biomedical-engineering
+projects:
+- neuromodulation-evidence-review
+- experiment-protocol-review
+papers:
+- paper-speech-neuroprosthesis
+datasets:
+- dataset-dandi
+resources:
+- policy-unesco-neuroethics
+- policy-fda-bci
+starting_assumptions:
+- Start with physiology and evidence appraisal, not device operation.
+minimum_viable_path: Build an evidence table comparing two broad approaches by mechanism,
+  study type, indication context and limitations.
+deeper_path: Study mechanistic models, trial design, translational constraints, long-term
+  outcomes and governance.
+common_misconceptions:
+- Mechanistic plausibility is not evidence of clinical efficacy.
+- Parameters cannot be interpreted independently of device, protocol, tissue and indication
+  context.
+typical_failure_modes:
+- Extrapolating from small studies and omitting safety, evidence quality or jurisdictional
+  context.
+safety: The repository does not provide stimulation parameters or invasive procedural
+  instructions. Real stimulation belongs in appropriate professional settings.
+ethics: Consent, risk, access, evidence quality and long-term responsibility are central
+  to evaluation.
+research_directions:
+- Closed-loop modulation, individualization, biomarkers, mechanism-informed models
+  and long-term outcomes.
+next_steps: Choose a modality-specific technical branch or return to neural interfaces
+  for systems integration.

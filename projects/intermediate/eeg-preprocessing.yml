@@ -1,0 +1,28 @@
+id: eeg-preprocessing
+title: Reproducible EEG preprocessing
+level: intermediate
+objective: Create an auditable EEG preprocessing pipeline on public data.
+prerequisite_skills:
+- eeg-fundamentals
+- signal-processing
+- python-scientific
+expected_hours: 12–20h
+inputs:
+- PhysioNet EEG Motor Movement/Imagery Dataset
+tools: MNE-Python, MNE-BIDS
+deliverables:
+- Configured pipeline
+- before/after QC figures
+- README
+suggested_extensions:
+- Compare artifact strategies
+- add BIDS metadata checks
+evaluation_criteria:
+- Provenance recorded
+- settings explicit
+- data not overwritten
+- QC visible
+common_failure_modes:
+- Filtering before understanding event timing
+- Silent channel/session removal
+safety: Public data; respect dataset license.

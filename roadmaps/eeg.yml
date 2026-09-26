@@ -1,0 +1,77 @@
+id: eeg
+title: I want to learn EEG
+audience: Learners who want practical competence with scalp EEG data and the reasoning
+  needed to analyze it responsibly.
+prerequisites:
+- neuroscience-basics
+- python-scientific
+- signal-processing
+destination_outcomes:
+- Explain what scalp EEG measures and what it does not directly reveal.
+- Build a reproducible preprocessing and spectral-analysis workflow.
+- Identify major artifact sources and evaluate their effect on downstream results.
+estimated_hours:
+  explorer: "8\u201315"
+  builder: "60\u2013100"
+  researcher: "140\u2013240+"
+core_path:
+- neuroscience-basics
+- neuroanatomy-basics
+- physiology-neural
+- math-linear-algebra
+- math-calculus
+- python-scientific
+- signal-processing
+- biological-signals
+- eeg-fundamentals
+- eeg-preprocessing
+- probability
+- statistics-inference
+- machine-learning
+- scientific-writing
+- research-methodology
+- experimental-design
+- neural-decoding
+optional_branches:
+- p300-analysis
+- ssvep-analysis
+- deep-learning
+projects:
+- signal-visualization
+- eeg-preprocessing
+- psd-analysis
+- artifact-analysis
+- p300-analysis
+- ssvep-analysis
+papers:
+- paper-eeg-bids
+- paper-p300-speller
+- paper-higashi-tanaka-cstfp
+datasets:
+- dataset-eegmmidb
+- dataset-openneuro
+- dataset-bci-competition-ii
+resources:
+- software-mne
+- software-mne-bids
+- standard-bids
+starting_assumptions:
+- The path is analysis-first and does not require hardware acquisition.
+minimum_viable_path: Load public EEG, document the montage and events, create a reproducible
+  preprocessing pipeline, inspect a PSD and annotate artifacts.
+deeper_path: Add event-related analysis, time-frequency methods, cross-session evaluation,
+  source modeling or modality comparisons.
+common_misconceptions:
+- A spectral peak is not automatically a biomarker, diagnosis or direct readout of
+  a cognitive state.
+typical_failure_modes:
+- Ignoring reference choice, treating artifact rejection as purely automatic, and
+  changing preprocessing after seeing the test result.
+safety: Use public datasets for self-directed work. Human acquisition introduces electrical,
+  privacy and consent considerations.
+ethics: Do not infer sensitive traits from EEG outside the evidence supported by the
+  task and study design.
+research_directions:
+- Robust preprocessing, cross-subject generalization, source-informed analysis, calibration
+  reduction and multimodal EEG.
+next_steps: Choose P300, SSVEP or motor imagery after the baseline analysis is reproducible.

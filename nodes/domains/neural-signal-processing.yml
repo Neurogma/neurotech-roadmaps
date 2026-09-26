@@ -1,0 +1,26 @@
+id: neural-signal-processing
+title: Neural signal processing
+domain: neural-signal-processing
+level: advanced
+description: Signal-processing methods specialized to neural time series, connecting
+  generic DSP with measurement-aware neural analysis.
+learning_objectives:
+- Compare filtering, spectral, time-frequency and artifact-removal methods for neural
+  signals.
+- Predict how window length, filter characteristics and preprocessing choices affect
+  the quantity being estimated.
+- Choose a signal-processing method that matches a defined scientific question and
+  report its assumptions.
+prerequisites:
+- signal-processing
+- statistics-inference
+estimated_hours: "30\u201350"
+resources:
+- software-mne
+- software-scipy
+evidence:
+- quiz
+- explanation
+common_misconceptions:
+- Representation choices are tied to measurement and task context.
+exercise: Create a one-page comparison or system diagram.

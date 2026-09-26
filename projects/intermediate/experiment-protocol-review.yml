@@ -1,0 +1,23 @@
+id: experiment-protocol-review
+title: Experimental protocol review
+level: intermediate
+objective: Audit a hypothetical neurotechnology protocol for design quality, confounds, consent and evaluation.
+prerequisite_skills:
+- research-methodology
+- experimental-design
+- scientific-writing
+expected_hours: 8–16h
+inputs:
+- Published protocol or hypothetical protocol
+tools: Markdown/reference manager
+deliverables:
+- Structured critique
+- revision table
+suggested_extensions:
+- Compare two study designs
+evaluation_criteria:
+- Claims tied to protocol details
+- recommendations separated from description
+common_failure_modes:
+- Generic criticism without evidence
+safety: Do not collect human data as part of this project.

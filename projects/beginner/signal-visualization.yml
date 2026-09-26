@@ -1,0 +1,28 @@
+id: signal-visualization
+title: Signal visualization
+level: beginner
+objective: Plot and annotate a short public or synthetic biosignal, with sampling information and artifact observations.
+prerequisite_skills:
+- python-scientific
+- biological-signals
+expected_hours: 4–8h
+inputs:
+- Synthetic waveform or public sample segment
+tools: Python, NumPy, Matplotlib
+deliverables:
+- README
+- notebook
+- figure set
+- short interpretation
+suggested_extensions:
+- Add multiple channels
+- Add event markers
+evaluation_criteria:
+- Correct units
+- clear labels
+- reproducible notebook
+- no unsupported physiological claims
+common_failure_modes:
+- Plot labels without stating sampling rate
+- interpreting noise as physiology
+safety: Use synthetic/public data; no subject collection required.

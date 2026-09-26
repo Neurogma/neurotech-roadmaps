@@ -1,0 +1,29 @@
+id: electronics-biosignals
+title: Electronics for biosignal acquisition
+domain: electronics
+level: intermediate
+description: Voltage/current, impedance, grounding, analog front ends, ADCs and interference
+  in biosignal acquisition.
+learning_objectives:
+- Explain the role of amplification, filtering and ADC resolution in an acquisition
+  chain.
+- Identify common noise and grounding problems at a conceptual level.
+- Read a biosignal acquisition block diagram and identify safety-critical boundaries.
+prerequisites:
+- biological-signals
+- signal-processing
+estimated_hours: "30\u201350"
+resources:
+- software-openbci
+- software-brainflow
+evidence:
+- explanation
+- diagram_review
+- project
+common_misconceptions:
+- Higher gain always improves signal quality.
+- Consumer sensing hardware is automatically clinical instrumentation.
+safety: Do not improvise connected electrical circuits or clinical interfaces; hardware
+  work should follow manufacturer and professional safety guidance.
+exercise: Annotate a generic acquisition chain and mark where signal conditioning
+  and isolation belong.

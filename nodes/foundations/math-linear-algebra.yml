@@ -1,0 +1,23 @@
+id: math-linear-algebra
+title: Linear algebra for neurotechnology
+domain: mathematics
+level: foundation
+description: Vectors, matrices, projections, covariance, eigenvectors and decompositions
+  used throughout signal processing and machine learning.
+learning_objectives:
+- Manipulate vectors and matrices used to represent multichannel data.
+- Interpret covariance and eigenstructure geometrically.
+- Recognize when dimensionality reduction changes representation rather than creating
+  information.
+prerequisites: []
+estimated_hours: "25\u201345"
+resources:
+- course-mit-linear-algebra
+evidence:
+- derivation
+- implementation
+- quiz
+common_misconceptions:
+- PCA discovers causal mechanisms.
+exercise: Compute a covariance matrix for a toy two-channel signal and interpret its
+  leading eigenvector.

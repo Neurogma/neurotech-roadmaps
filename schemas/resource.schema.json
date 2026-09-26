@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:neurotech-roadmaps:schema:resource",
+  "title": "Resource",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "kind",
+    "level",
+    "url",
+    "why_useful",
+    "does_not_cover",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 3
+    },
+    "kind": {
+      "enum": [
+        "book",
+        "course",
+        "documentation",
+        "software",
+        "standard",
+        "dataset",
+        "policy"
+      ]
+    },
+    "level": {
+      "enum": [
+        "foundation",
+        "beginner",
+        "intermediate",
+        "advanced",
+        "research"
+      ]
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "why_useful": {
+      "type": "string",
+      "minLength": 20
+    },
+    "does_not_cover": {
+      "type": "string",
+      "minLength": 15
+    },
+    "status": {
+      "enum": [
+        "active",
+        "needs-review",
+        "deprecated",
+        "broken-link",
+        "archived",
+        "community-submitted"
+      ]
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_type",
+        "last_verified",
+        "review_interval_days"
+      ],
+      "properties": {
+        "source_type": {
+          "enum": [
+            "publisher-or-institution",
+            "official-project",
+            "standards-body",
+            "dataset-archive",
+            "regulator-or-intergovernmental",
+            "community"
+          ]
+        },
+        "last_verified": {
+          "type": "string",
+          "format": "date"
+        },
+        "review_interval_days": {
+          "type": "integer",
+          "minimum": 30,
+          "maximum": 730
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "active"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "provenance"
+        ]
+      }
+    }
+  ]
+}

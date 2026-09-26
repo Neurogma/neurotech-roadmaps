@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: "neurotech-roadmaps"
+message: "Please cite neurotech-roadmaps when reusing its learning architecture or curated data."
+type: software
+authors:
+  - name: "neurotech-roadmaps contributors"
+version: 0.1.0
+license: Apache-2.0
+abstract: "A curated, dependency-aware learning and navigation system for neurotechnology."
+keywords:
+  - neurotechnology
+  - brain-computer interfaces
+  - computational neuroscience
+  - EEG
+  - neuroethics

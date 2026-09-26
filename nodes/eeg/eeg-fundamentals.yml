@@ -1,0 +1,27 @@
+id: eeg-fundamentals
+title: EEG fundamentals
+domain: EEG
+level: intermediate
+description: EEG acquisition concepts, montages, references, artifacts, events and
+  common analysis vocabulary.
+learning_objectives:
+- Explain what scalp EEG measures and what it does not directly measure.
+- Compare common referencing choices and their consequences.
+- Identify common ocular, muscular and movement artifacts.
+prerequisites:
+- biological-signals
+- neuroanatomy-basics
+estimated_hours: "20\u201335"
+resources:
+- software-mne
+- dataset-eegmmidb
+- dataset-openneuro
+evidence:
+- notebook
+- explanation
+- code_review
+common_misconceptions:
+- An EEG channel is not a one-to-one measurement of a single cortical region.
+safety: Public datasets are preferred for self-directed work.
+ethics: Do not infer sensitive traits from raw EEG without strong task-specific evidence.
+exercise: Load a public EEG recording and annotate visible artifacts before preprocessing.

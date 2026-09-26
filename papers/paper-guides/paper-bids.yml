@@ -1,0 +1,55 @@
+id: paper-bids
+title: The brain imaging data structure, a format for organizing and describing outputs of neuroimaging experiments
+authors:
+- Krzysztof J. Gorgolewski
+- Tibor Auer
+- Vince D. Calhoun
+- R. Cameron Craddock
+- Samir Das
+- Eugene P. Duff
+- Guillaume Flandin
+- Satrajit S. Ghosh
+- Tristan Glatard
+- Yaroslav O. Halchenko
+- Daniel A. Handwerker
+- Michael Hanke
+- David Keator
+- Xiangrui Li
+- Zachary Michael
+- Camille Maumet
+- B. Nolan Nichols
+- Thomas E. Nichols
+- John Pellman
+- Jean-Baptiste Poline
+- Ariel Rokem
+- Gunnar Schaefer
+- Vanessa Sochat
+- William Triplett
+- Jessica A. Turner
+- Gaël Varoquaux
+- Russell A. Poldrack
+year: 2016
+venue: Scientific Data
+doi: 10.1038/sdata.2016.44
+url: https://pubmed.ncbi.nlm.nih.gov/27326542/
+level: intermediate
+estimated_hours: 4–8h
+why_it_matters: Introduces the core data-organization philosophy behind BIDS, which supports reproducible neuroimaging
+  workflows.
+prerequisite_knowledge:
+- basic neuroimaging data concepts
+research_question: How can a common organization and metadata convention make neuroimaging datasets easier to understand
+  and reuse?
+method: Specification/design paper describing a common directory, naming and metadata model.
+dataset_or_participants: Specification paper; no participant cohort is the central unit of analysis.
+major_result: A standardized dataset organization can make neuroimaging outputs more interoperable and machine-readable.
+limitations: A data standard does not make a dataset scientifically valid; modality-specific conventions and study
+  metadata still matter.
+reproducibility_notes: Read alongside the current BIDS specification; standards evolve after publication.
+related_papers:
+- paper-eeg-bids
+learner_should_extract:
+- what is standardized
+- why metadata matters
+- scope boundaries
+- difference between organization and analysis

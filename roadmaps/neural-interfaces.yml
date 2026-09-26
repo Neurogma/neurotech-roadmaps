@@ -1,0 +1,68 @@
+id: neural-interfaces
+title: I want to build neural interfaces
+audience: Software, electronics, embedded and biomedical learners who want to integrate
+  neural sensing with feedback and control.
+prerequisites:
+- neuroscience-basics
+- math-linear-algebra
+- python-scientific
+destination_outcomes:
+- Specify a bounded interface from sensing to user feedback.
+- Trace timing, uncertainty and failure modes across the system.
+- Build a software-only prototype that exposes state, confidence and safe stop behavior.
+estimated_hours:
+  explorer: "8\u201315"
+  builder: "90\u2013150"
+  researcher: "180\u2013300+"
+core_path:
+- neuroscience-basics
+- physiology-neural
+- math-linear-algebra
+- math-calculus
+- python-scientific
+- signal-processing
+- biological-signals
+- electronics-biosignals
+- control-systems
+- embedded-systems
+- human-machine-interaction
+- neural-interfaces
+optional_branches:
+- robotics
+projects:
+- biosignal-acquisition-simulation
+- closed-loop-control-simulation
+- neural-interface-software-simulation
+papers:
+- paper-bci2000
+- paper-wolpaw-bci
+- paper-speech-neuroprosthesis
+datasets:
+- dataset-eegmmidb
+- dataset-dandi
+resources:
+- software-brainflow
+- software-openbci
+- software-mne
+starting_assumptions:
+- The core path stays in simulation or public-data replay; hardware is treated as
+  an engineering reference, not a clinical device.
+minimum_viable_path: Implement a replayable software interface with timestamps, confidence,
+  explicit states and a manual override.
+deeper_path: Add real-time constraints, fault injection, multimodal sensing, adaptive
+  control and formalized human-factors evaluation.
+common_misconceptions:
+- A prototype that produces the desired output once is not evidence that the system
+  is safe or robust.
+typical_failure_modes:
+- Directly mapping uncertain model output to actuation, hiding state transitions,
+  and failing to log timing or recovery behavior.
+safety: Do not use this path to justify clinical, invasive or stimulation experiments.
+  Physical interfaces require appropriate engineering and safety review.
+ethics: User control, consent, accessibility, data minimization and recovery from
+  erroneous system decisions should be explicit design concerns.
+research_directions:
+- Closed-loop adaptation, multimodal interfaces, uncertainty-aware control, low-latency
+  systems and robust human-machine interaction.
+next_steps: Branch into BCI, robotics/control or neuroprosthetics according to the
+  intended sensing and actuation problem.

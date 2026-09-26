@@ -1,0 +1,25 @@
+id: biophysical-models
+title: Biophysical neuron models
+domain: computational-neuroscience
+level: research
+description: Mechanistic neuron models linking membrane currents, conductances and
+  action-potential dynamics.
+learning_objectives:
+- Interpret a conductance-based neuron model and identify state variables.
+- Relate model parameters to qualitative firing behavior.
+- Critique what a single-cell model omits from real tissue.
+prerequisites:
+- computational-neuroscience
+estimated_hours: "40\u201370"
+resources:
+- software-neuron
+evidence:
+- derivation
+- implementation
+- paper_critique
+common_misconceptions:
+- A classic biophysical model is a literal description of every neuron.
+sources:
+- paper-hodgkin-huxley
+exercise: Perturb one conductance parameter in a simple model and explain the change
+  in excitability.

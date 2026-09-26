@@ -1,0 +1,55 @@
+id: neural-signal-processing
+title: I want to learn neural signal processing
+audience: Learners who want a strong signal-processing foundation for EEG and other
+  neural measurements.
+prerequisites:
+- math-linear-algebra
+- math-calculus
+- probability
+- python-scientific
+destination_outcomes:
+- Reason about sampling, filters, spectra and time-frequency estimates mathematically.
+- Quantify how analysis choices change a signal estimate.
+- Select methods based on the question rather than a default software pipeline.
+estimated_hours:
+  explorer: "8\u201315"
+  builder: "80\u2013130"
+  researcher: "170\u2013300+"
+core_path:
+- neuroscience-basics
+- physiology-neural
+- math-linear-algebra
+- math-calculus
+- python-scientific
+- signal-processing
+- probability
+- statistics-inference
+- neural-signal-processing
+projects:
+- signal-visualization
+- psd-analysis
+- eeg-preprocessing
+- artifact-analysis
+papers:
+- paper-higashi-tanaka-cstfp
+- paper-moabb-2018
+datasets:
+- dataset-eegmmidb
+resources:
+- software-scipy
+- software-mne
+- software-numpy
+starting_assumptions:
+- The path assumes basic programming or willingness to learn enough Python to work
+  through the exercises.
+minimum_viable_path: Predict how sampling, filtering and windowing affect synthetic
+  signals, then reproduce those effects on one public EEG segment.
+deeper_path: Study time-frequency methods, spatial filtering, source estimation and
+  method-specific uncertainty.
+common_misconceptions:
+- A cleaner-looking signal is not necessarily a more valid signal; preprocessing can
+  remove task-relevant information.
+typical_failure_modes:
+- Selecting filter settings by habit, reporting spectral results without windowing
+  details, and ignoring phase or edge effects.
+next_steps: Move into neural decoding, modality-specific analysis or neural data science.

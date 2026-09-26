@@ -1,0 +1,24 @@
+id: neurotechnology-governance
+title: Neurotechnology governance analysis
+domain: neuroethics
+level: research
+description: Structured analysis of governance instruments, rights, access, privacy
+  and accountability around neurotechnology.
+learning_objectives:
+- Compare rights-based and risk-based governance framings.
+- Trace a governance proposal to the technical and social problem it addresses.
+- Write a sourced policy analysis that distinguishes facts from recommendations.
+prerequisites:
+- ethics-neurotechnology
+- scientific-writing
+estimated_hours: "25\u201345"
+resources:
+- policy-unesco-neuroethics
+evidence:
+- paper_critique
+- written_plan
+- oral_explanation
+common_misconceptions:
+- One policy tool can resolve all governance concerns.
+ethics: Keep descriptive legal/policy claims distinct from normative recommendations.
+exercise: Analyze a governance instrument for mental privacy, agency and access implications.

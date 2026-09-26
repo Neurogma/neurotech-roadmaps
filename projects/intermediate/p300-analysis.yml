@@ -1,0 +1,25 @@
+id: p300-analysis
+title: P300 analysis
+level: intermediate
+objective: Analyze event-related potentials and simple classification using a public P300 benchmark.
+prerequisite_skills:
+- eeg-preprocessing
+- statistics-inference
+expected_hours: 12–24h
+inputs:
+- BCI Competition II P300 dataset
+tools: MNE, SciPy, scikit-learn
+deliverables:
+- ERP plots
+- classifier baseline
+- analysis note
+suggested_extensions:
+- Time-window optimization
+- cross-subject analysis
+evaluation_criteria:
+- Events aligned
+- baseline explained
+- split documented
+common_failure_modes:
+- Calling P300 a universal “attention signal”
+safety: Public data only.

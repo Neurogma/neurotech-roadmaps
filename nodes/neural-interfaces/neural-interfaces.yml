@@ -1,0 +1,28 @@
+id: neural-interfaces
+title: Neural interface engineering
+domain: neural-interfaces
+level: advanced
+description: Integration of neural sensing, embedded systems, control and human-machine
+  interaction into a bounded interface architecture.
+learning_objectives:
+- Specify a non-clinical interface architecture from sensing to user feedback.
+- Trace timing, uncertainty and failure modes across the system.
+- Produce a simulated interface with explicit safety boundaries and logging.
+prerequisites:
+- electronics-biosignals
+- control-systems
+- embedded-systems
+- human-machine-interaction
+estimated_hours: "45\u201380"
+resources:
+- software-brainflow
+- software-openbci
+evidence:
+- project
+- code_review
+- reproducible_experiment
+common_misconceptions:
+- A prototype is safe because it worked once in a demo.
+safety: Do not use this node to justify clinical or invasive hardware experiments.
+ethics: User control, consent, accessibility and data governance are system requirements.
+exercise: Build a simulated intent decoder feeding a state machine with a manual override.

@@ -1,0 +1,35 @@
+id: paper-eeg-bids
+title: EEG-BIDS, an extension to the brain imaging data structure for electroencephalography
+authors:
+- Cyril R. Pernet
+- Stefan Appelhoff
+- Krzysztof J. Gorgolewski
+- Guillaume Flandin
+- Christophe Phillips
+- Arnaud Delorme
+- Robert Oostenveld
+year: 2019
+venue: Scientific Data
+doi: 10.1038/s41597-019-0104-8
+url: https://pubmed.ncbi.nlm.nih.gov/31239435/
+level: intermediate
+estimated_hours: 4–8h
+why_it_matters: Shows how BIDS conventions are adapted to EEG-specific metadata and recording structure.
+prerequisite_knowledge:
+- EEG fundamentals
+- BIDS basics
+research_question: How should BIDS be extended so EEG datasets can be consistently described and shared?
+method: Specification paper defining EEG-specific extensions to BIDS.
+dataset_or_participants: Standards/specification paper; illustrative EEG datasets and metadata examples.
+major_result: A consistent EEG-specific structure can improve interoperability and reproducibility across analysis
+  tools.
+limitations: The paper is historical relative to the living BIDS specification.
+reproducibility_notes: Use the paper to understand the design rationale, but follow the current BIDS specification
+  for implementation.
+related_papers:
+- paper-bids
+learner_should_extract:
+- metadata semantics
+- file/entity relationships
+- what a standard can guarantee
+- what remains study-specific

@@ -1,0 +1,34 @@
+id: paper-wolpaw-bci
+title: Brain-computer interfaces for communication and control
+authors:
+- Jonathan R. Wolpaw
+- Niels Birbaumer
+- Dennis J. McFarland
+- Gert Pfurtscheller
+- Theresa M. Vaughan
+year: 2002
+venue: Clinical Neurophysiology
+doi: 10.1016/S1388-2457(02)00057-3
+url: https://pubmed.ncbi.nlm.nih.gov/12048038/
+level: foundation
+estimated_hours: 5–10h
+why_it_matters: Broad early synthesis of BCI signals, adaptation, evaluation and interdisciplinary requirements.
+prerequisite_knowledge:
+- basic neuroscience
+- EEG vocabulary
+research_question: How can physiological signals provide a non-muscular communication and control channel?
+method: Review and synthesis of BCI paradigms, signals, algorithms, applications and evaluation considerations.
+dataset_or_participants: Review article; summarizes prior human BCI research rather than introducing one dataset.
+major_result: BCI performance depends on both user learning and system decoding, with signal choice, artifact control
+  and evaluation design central to progress.
+limitations: A historical review should not be treated as a current state-of-the-field survey.
+reproducibility_notes: Use it for conceptual framing, then update claims with recent primary literature and current
+  benchmarks.
+related_papers:
+- paper-p300-speller
+- paper-bci2000
+learner_should_extract:
+- closed-loop adaptation
+- signal classes
+- evaluation dimensions
+- interdisciplinary dependencies

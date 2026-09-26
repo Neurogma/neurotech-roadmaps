@@ -1,0 +1,24 @@
+id: experimental-design
+title: Experimental design for neurotechnology
+domain: experimental-design
+level: intermediate
+description: Controls, randomization, counterbalancing, repeated measures, subject
+  splits and evaluation design for neural data studies.
+learning_objectives:
+- Identify sources of confounding in a neural decoding study.
+- Design subject-wise and session-wise evaluation when generalization is claimed.
+- Predefine primary metrics and exclusion rules.
+prerequisites:
+- statistics-inference
+- research-methodology
+estimated_hours: "25\u201345"
+resources:
+- book-statistical-learning
+evidence:
+- paper_critique
+- written_plan
+- reproducible_experiment
+common_misconceptions:
+- Cross-validation alone fixes all sources of bias.
+ethics: Do not treat participants as interchangeable data points.
+exercise: Audit a hypothetical EEG classification paper for leakage and circular analysis.

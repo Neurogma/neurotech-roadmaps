@@ -1,0 +1,32 @@
+id: paper-p300-speller
+title: 'Talking off the top of your head: toward a mental prosthesis utilizing event-related brain potentials'
+authors:
+- L. A. Farwell
+- E. Donchin
+year: 1988
+venue: Electroencephalography and Clinical Neurophysiology
+doi: 10.1016/0013-4694(88)90149-6
+url: https://pubmed.ncbi.nlm.nih.gov/2461285/
+level: foundation
+estimated_hours: 4–8h
+why_it_matters: Introduces a classic P300-based communication paradigm that shaped later ERP BCI work.
+prerequisite_knowledge:
+- EEG basics
+- event-related potentials
+- basic statistics
+research_question: Can target-related event-related potentials support a communication interface?
+method: Visual oddball/speller paradigm with EEG-derived event-related potential features.
+dataset_or_participants: Human participants performing a visual oddball/speller task.
+major_result: Demonstrates that target-related ERP responses can be used to select characters in a communication
+  paradigm.
+limitations: Historical system design, hardware and evaluation conventions differ from current BCI benchmarks.
+reproducibility_notes: Reproduce the event structure and analysis concept using modern open EEG data rather than
+  treating original performance as a current benchmark.
+related_papers:
+- paper-wolpaw-bci
+- paper-bci2000
+learner_should_extract:
+- event timing
+- target/non-target design
+- ERP features
+- what constitutes a communication outcome

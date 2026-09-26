@@ -1,0 +1,25 @@
+id: biosignal-acquisition-simulation
+title: Biosignal acquisition simulation
+level: intermediate
+objective: Simulate an acquisition chain with gain, sampling, quantization and noise without connecting hardware
+  to a person.
+prerequisite_skills:
+- electronics-biosignals
+- signal-processing
+expected_hours: 10–18h
+inputs:
+- Synthetic signals
+tools: Python, NumPy, SciPy
+deliverables:
+- Simulation notebook
+- block diagram
+- error analysis
+suggested_extensions:
+- ADC comparison
+- noise injection
+evaluation_criteria:
+- Sampling assumptions explicit
+- quantization explained
+common_failure_modes:
+- Treating simulation as hardware validation
+safety: Simulation only.

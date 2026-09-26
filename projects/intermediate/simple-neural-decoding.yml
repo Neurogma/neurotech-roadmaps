@@ -1,0 +1,28 @@
+id: simple-neural-decoding
+title: Simple neural decoding
+level: intermediate
+objective: Build a transparent baseline decoder for an explicitly defined neural task.
+prerequisite_skills:
+- eeg-preprocessing
+- machine-learning
+- statistics-inference
+expected_hours: 12–20h
+inputs:
+- Public EEG epochs
+tools: Scikit-learn, MNE
+deliverables:
+- Code
+- metrics
+- split diagram
+- error analysis
+suggested_extensions:
+- Subject-wise analysis
+- alternative features
+evaluation_criteria:
+- No leakage
+- preprocessing fit only on training
+- metrics with class counts
+common_failure_modes:
+- Tuning on the test set
+- Reporting only mean accuracy
+safety: Use public non-clinical data.

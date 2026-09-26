@@ -1,0 +1,23 @@
+id: neuroanatomy-basics
+title: Neuroanatomy for neurotechnology
+domain: neuroanatomy
+level: foundation
+description: An applied map of cortex, subcortical structures, white matter, vascular
+  anatomy and coordinate language used in neurotechnology.
+learning_objectives:
+- Identify major cortical lobes and motor, somatosensory and visual regions.
+- Explain why anatomy is a spatial reference rather than a complete functional explanation.
+- Read basic atlas-style figures and coordinate conventions.
+prerequisites:
+- neuroscience-basics
+estimated_hours: "12\u201320"
+resources:
+- course-human-brain
+evidence:
+- quiz
+- oral_explanation
+- explanation
+common_misconceptions:
+- Anatomical localization alone proves a cognitive mechanism.
+exercise: Label a cortical surface diagram and connect motor/sensory regions to a
+  hypothetical interface.

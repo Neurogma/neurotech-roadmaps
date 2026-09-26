@@ -1,0 +1,75 @@
+id: neuroprosthetics
+title: I want to work on neuroprosthetics
+audience: Biomedical, robotics, neuroscience and engineering learners interested in
+  assistive or restorative systems.
+prerequisites:
+- neuroscience-basics
+- math-linear-algebra
+- python-scientific
+destination_outcomes:
+- "Model the sensing\u2013inference\u2013control\u2013actuation loop and its failure\
+  \ modes."
+- Evaluate latency, uncertainty and user override in a simulated assistive system.
+- Distinguish research demonstrations from clinically validated devices.
+estimated_hours:
+  explorer: "10\u201318"
+  builder: "100\u2013160"
+  researcher: "220\u2013400+"
+core_path:
+- neuroscience-basics
+- neuroanatomy-basics
+- physiology-neural
+- math-linear-algebra
+- math-calculus
+- python-scientific
+- signal-processing
+- biological-signals
+- electronics-biosignals
+- biomedical-engineering
+- control-systems
+- robotics
+- embedded-systems
+- human-machine-interaction
+- neural-interfaces
+- neuroprosthetics-fundamentals
+optional_branches:
+- eeg-fundamentals
+- intracortical-interfaces
+- computational-neuroscience
+projects:
+- biosignal-acquisition-simulation
+- closed-loop-control-simulation
+- neural-interface-software-simulation
+- neuroprosthetic-control-simulation
+papers:
+- paper-speech-neuroprosthesis
+- paper-wolpaw-bci
+datasets:
+- dataset-eegmmidb
+- dataset-dandi
+resources:
+- software-brainflow
+- software-openbci
+- software-mne
+starting_assumptions:
+- You can follow basic programming and quantitative reasoning.
+- The default work is simulation and public data.
+minimum_viable_path: Build a simulated intent-to-actuation loop with explicit idle,
+  uncertain and manual-override states and measure control latency.
+deeper_path: Study modality-specific devices, adaptation, long-term stability, human
+  factors, clinical endpoints and regulatory evidence.
+common_misconceptions:
+- A good decoder is not automatically a validated assistive device.
+- Clinical usefulness requires evidence beyond an offline algorithm benchmark.
+typical_failure_modes:
+- Bypassing human-factors analysis, treating uncertain intent as ground truth, and
+  ignoring drift or maintenance burden.
+safety: Keep self-directed work in simulation and public datasets. Implantation, stimulation,
+  patient-facing devices and clinical evaluation require qualified settings.
+ethics: Treat user agency, informed consent, accessibility, maintenance burden and
+  benefit/risk as system requirements.
+research_directions:
+- Long-term stability, multimodal decoding, shared control, adaptation, embodiment
+  and real-world robustness.
+next_steps: Choose a sensing modality branch or move deeper into robotics/control
+  and translational evidence.

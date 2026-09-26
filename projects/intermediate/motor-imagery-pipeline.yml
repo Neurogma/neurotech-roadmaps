@@ -1,0 +1,26 @@
+id: motor-imagery-pipeline
+title: Motor imagery pipeline
+level: intermediate
+objective: Build an end-to-end motor-imagery EEG benchmark.
+prerequisite_skills:
+- eeg-preprocessing
+- neural-decoding
+expected_hours: 20–35h
+inputs:
+- PhysioNet EEG Motor Movement/Imagery Dataset
+tools: MNE, scikit-learn, MOABB
+deliverables:
+- Notebook/repo
+- per-subject metrics
+- confusion matrix
+- limitations
+suggested_extensions:
+- CSP features
+- cross-session analysis
+evaluation_criteria:
+- Task labels correct
+- subject leakage avoided
+- baseline is transparent
+common_failure_modes:
+- Equating motor imagery decoding with unconstrained intent decoding
+safety: Public data; not a clinical BCI.

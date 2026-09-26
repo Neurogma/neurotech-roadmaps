@@ -1,0 +1,31 @@
+id: neuroprosthetics-fundamentals
+title: Neuroprosthetics systems fundamentals
+domain: neuroprosthetics
+level: advanced
+description: Systems-level concepts for restoring or augmenting function with neural
+  sensing, decoding, actuation, control and human factors.
+learning_objectives:
+- Describe a neuroprosthetic loop from user intent to actuation and feedback.
+- Identify technical, biomedical and human-factors constraints that shape design.
+- Distinguish research prototypes, assistive technologies and regulated medical devices.
+prerequisites:
+- neural-interfaces
+- control-systems
+- robotics
+estimated_hours: "35\u201360"
+resources:
+- policy-fda-bci
+evidence:
+- paper_critique
+- project
+- oral_explanation
+common_misconceptions:
+- Restoring one measured task in a study equals full functional restoration in daily
+  life.
+safety: Clinical and implantable neuroprosthetic work requires qualified teams and
+  formal oversight.
+ethics: Consider user agency, benefit/risk, maintenance burden and access.
+sources:
+- paper-speech-neuroprosthesis
+exercise: Analyze a published neuroprosthetic architecture and trace latency, adaptation
+  and failure handling.

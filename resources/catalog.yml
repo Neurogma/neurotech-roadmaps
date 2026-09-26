@@ -1,0 +1,425 @@
+- id: book-neuroscience-purves
+  title: Neuroscience
+  kind: book
+  level: foundation
+  prerequisites:
+  - introductory biology
+  url: https://www.ncbi.nlm.nih.gov/books/NBK572956/
+  why_useful: Broad, university-level grounding in cellular, systems and behavioral
+    neuroscience.
+  does_not_cover: Does not provide a complete signal-processing or BCI engineering
+    sequence.
+  status: active
+  provenance:
+    source_type: publisher-or-institution
+    last_verified: '2026-09-26'
+    review_interval_days: 365
+- id: book-statistical-learning
+  title: An Introduction to Statistical Learning
+  kind: book
+  level: foundation
+  prerequisites:
+  - basic algebra
+  - basic probability
+  url: https://www.statlearning.com/
+  why_useful: Accessible treatment of statistical learning with exercises and implementations.
+  does_not_cover: Does not teach neurophysiology or neural-data-specific experimental
+    design.
+  status: active
+  provenance:
+    source_type: publisher-or-institution
+    last_verified: '2026-09-26'
+    review_interval_days: 365
+- id: course-human-brain
+  title: 'MIT OpenCourseWare: The Human Brain'
+  kind: course
+  level: foundation
+  prerequisites:
+  - introductory biology helpful
+  url: https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/
+  why_useful: A structured university course for developing neuroscience vocabulary
+    and conceptual models.
+  does_not_cover: Not a BCI, signal-processing or neuroengineering course.
+  status: active
+  provenance:
+    source_type: publisher-or-institution
+    last_verified: '2026-09-26'
+    review_interval_days: 365
+- id: course-mit-linear-algebra
+  title: 'MIT OpenCourseWare: Linear Algebra'
+  kind: course
+  level: foundation
+  prerequisites:
+  - high-school algebra
+  url: https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/
+  why_useful: Independent-study course covering matrix theory, linear systems and
+    linear algebra with problem sets and solutions.
+  does_not_cover: Does not teach neural data analysis or numerical implementation
+    choices specific to neurotechnology.
+  status: active
+  provenance:
+    source_type: publisher-or-institution
+    last_verified: '2026-09-26'
+    review_interval_days: 365
+- id: course-mit-calculus
+  title: 'MIT OpenCourseWare: Single Variable Calculus'
+  kind: course
+  level: foundation
+  prerequisites:
+  - algebra
+  - trigonometry
+  url: https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/
+  why_useful: Structured introduction to differentiation and integration needed for
+    signals, dynamics and basic quantitative modeling.
+  does_not_cover: Does not cover multivariable calculus or neurotechnology applications
+    in depth.
+  status: active
+  provenance:
+    source_type: publisher-or-institution
+    last_verified: '2026-09-26'
+    review_interval_days: 365
+- id: course-mit-probability
+  title: 'MIT OpenCourseWare: Introduction to Probability and Statistics'
+  kind: course
+  level: foundation
+  prerequisites:
+  - algebra
+  url: https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/
+  why_useful: Rigorous starting point for probability, inference and statistical reasoning.
+  does_not_cover: Does not teach neural-data-specific experimental pipelines.
+  status: active
+  provenance:
+    source_type: publisher-or-institution
+    last_verified: '2026-09-26'
+    review_interval_days: 365
+- id: course-mit-control
+  title: 'MIT OpenCourseWare: Feedback Control Systems'
+  kind: course
+  level: intermediate
+  prerequisites:
+  - calculus
+  - linear algebra
+  url: https://ocw.mit.edu/courses/16-30-feedback-control-systems-fall-2010/
+  why_useful: Formal foundation for feedback, stability and controller design.
+  does_not_cover: Does not cover neuroprosthetic hardware or human factors.
+  status: active
+  provenance:
+    source_type: publisher-or-institution
+    last_verified: '2026-09-26'
+    review_interval_days: 365
+- id: course-scientific-writing
+  title: 'Purdue OWL: using research and citation'
+  kind: course
+  level: foundation
+  prerequisites:
+  - technical reading
+  url: https://owl.purdue.edu/owl/research_and_citation/using_research/index.html
+  why_useful: Practical guidance for evidence use, citation and research writing.
+  does_not_cover: Does not teach neurotechnology methods.
+  status: active
+  provenance:
+    source_type: publisher-or-institution
+    last_verified: '2026-09-26'
+    review_interval_days: 365
+- id: docs-python
+  title: Python documentation
+  kind: documentation
+  level: foundation
+  prerequisites:
+  - basic computing
+  url: https://docs.python.org/3/
+  why_useful: Authoritative reference and tutorial for the programming language used
+    by the repository projects.
+  does_not_cover: Does not teach scientific workflow by itself.
+  status: active
+  provenance:
+    source_type: official-project
+    last_verified: '2026-09-26'
+    review_interval_days: 180
+- id: software-numpy
+  title: NumPy documentation
+  kind: software
+  level: foundation
+  prerequisites:
+  - Python basics
+  url: https://numpy.org/doc/
+  why_useful: Core numerical-array operations used in signal and data analysis.
+  does_not_cover: Does not teach signal-processing concepts.
+  status: active
+  provenance:
+    source_type: official-project
+    last_verified: '2026-09-26'
+    review_interval_days: 180
+- id: software-scipy
+  title: SciPy documentation
+  kind: software
+  level: intermediate
+  prerequisites:
+  - Python
+  - NumPy
+  url: https://docs.scipy.org/doc/scipy/index.html
+  why_useful: Numerical methods and signal-processing utilities commonly used in scientific
+    Python.
+  does_not_cover: Does not prescribe scientifically valid analysis choices.
+  status: active
+  provenance:
+    source_type: official-project
+    last_verified: '2026-09-26'
+    review_interval_days: 180
+- id: software-jupyter
+  title: Jupyter documentation
+  kind: software
+  level: foundation
+  prerequisites:
+  - Python basics
+  url: https://docs.jupyter.org/en/latest/
+  why_useful: Practical notebook environment for executable analysis records.
+  does_not_cover: Does not provide experiment design or version-control guidance.
+  status: active
+  provenance:
+    source_type: official-project
+    last_verified: '2026-09-26'
+    review_interval_days: 180
+- id: software-mne
+  title: MNE-Python documentation
+  kind: software
+  level: intermediate
+  prerequisites:
+  - Python
+  - signal-processing basics
+  - EEG basics
+  url: https://mne.tools/stable/
+  why_useful: Primary open-source toolkit for electrophysiology and neuroimaging workflows,
+    including EEG.
+  does_not_cover: Does not teach the underlying scientific concepts or justify every
+    preprocessing choice.
+  status: active
+  provenance:
+    source_type: official-project
+    last_verified: '2026-09-26'
+    review_interval_days: 180
+- id: software-mne-bids
+  title: MNE-BIDS documentation
+  kind: software
+  level: intermediate
+  prerequisites:
+  - MNE-Python
+  - BIDS basics
+  url: https://mne.tools/mne-bids/stable/index.html
+  why_useful: Connects MNE workflows to BIDS-organized neurophysiology datasets.
+  does_not_cover: Does not teach BIDS governance or all modality-specific BIDS edge
+    cases.
+  status: active
+  provenance:
+    source_type: official-project
+    last_verified: '2026-09-26'
+    review_interval_days: 180
+- id: software-moabb
+  title: MOABB documentation
+  kind: software
+  level: advanced
+  prerequisites:
+  - EEG preprocessing
+  - machine learning
+  url: https://moabb.neurotechx.com/docs/
+  why_useful: Benchmarking framework for comparing BCI pipelines over public datasets
+    with explicit evaluation schemes.
+  does_not_cover: Does not remove the need to inspect dataset/task assumptions or
+    leakage risks.
+  status: active
+  provenance:
+    source_type: official-project
+    last_verified: '2026-09-26'
+    review_interval_days: 180
+- id: software-scikit-learn
+  title: scikit-learn user guide
+  kind: software
+  level: intermediate
+  prerequisites:
+  - Python
+  - statistics basics
+  url: https://scikit-learn.org/stable/user_guide.html
+  why_useful: Clear implementations of classical machine-learning models and evaluation
+    tools.
+  does_not_cover: Does not teach neural data interpretation.
+  status: active
+  provenance:
+    source_type: official-project
+    last_verified: '2026-09-26'
+    review_interval_days: 180
+- id: software-pytorch
+  title: PyTorch documentation
+  kind: software
+  level: advanced
+  prerequisites:
+  - machine learning
+  - Python
+  url: https://docs.pytorch.org/docs/main/
+  why_useful: Reference for building and evaluating deep-learning models once simpler
+    baselines are understood.
+  does_not_cover: Does not justify use of deep learning when data or evaluation design
+    are weak.
+  status: active
+  provenance:
+    source_type: official-project
+    last_verified: '2026-09-26'
+    review_interval_days: 180
+- id: software-neuron
+  title: NEURON simulator documentation
+  kind: software
+  level: advanced
+  prerequisites:
+  - cellular physiology
+  - Python
+  url: https://nrn.readthedocs.io/en/latest/index.html
+  why_useful: Established simulator for mechanistic neuronal models.
+  does_not_cover: Does not teach model selection, parameter identifiability or experimental
+    inference.
+  status: active
+  provenance:
+    source_type: official-project
+    last_verified: '2026-09-26'
+    review_interval_days: 180
+- id: software-brainflow
+  title: BrainFlow documentation
+  kind: software
+  level: intermediate
+  prerequisites:
+  - Python or another supported language
+  - biosignal basics
+  url: https://brainflow.org/
+  why_useful: Provides a common software layer for interfacing with several biosignal
+    boards and synthetic streams.
+  does_not_cover: Does not validate hardware safety or guarantee clinical-grade measurements.
+  status: active
+  provenance:
+    source_type: official-project
+    last_verified: '2026-09-26'
+    review_interval_days: 180
+- id: software-openbci
+  title: OpenBCI documentation
+  kind: software
+  level: intermediate
+  prerequisites:
+  - biosignal basics
+  url: https://docs.openbci.com/
+  why_useful: Hardware/software documentation useful for understanding accessible
+    biosignal acquisition stacks.
+  does_not_cover: Does not authorize clinical use or remove electrical/human-subject
+    safety requirements.
+  status: active
+  provenance:
+    source_type: official-project
+    last_verified: '2026-09-26'
+    review_interval_days: 180
+- id: standard-bids
+  title: BIDS specification
+  kind: standard
+  level: intermediate
+  prerequisites:
+  - basic neuroimaging/neurophysiology concepts
+  url: https://bids-specification.readthedocs.io/en/stable/index.html
+  why_useful: Canonical specification for organizing and describing neuroimaging and
+    related data with machine-readable metadata.
+  does_not_cover: Does not prescribe preprocessing or analysis methods.
+  status: active
+  provenance:
+    source_type: standards-body
+    last_verified: '2026-09-26'
+    review_interval_days: 180
+- id: dataset-eegmmidb
+  title: EEG Motor Movement/Imagery Dataset
+  kind: dataset
+  level: beginner
+  prerequisites:
+  - EEG basics
+  - Python
+  url: https://physionet.org/content/eegmmidb/1.0.0/
+  why_useful: Concrete public EEG dataset for learning event handling, preprocessing
+    and motor-imagery decoding without collecting new human data.
+  does_not_cover: Does not represent all EEG users, paradigms or acquisition settings.
+  status: active
+  provenance:
+    source_type: dataset-archive
+    last_verified: '2026-09-26'
+    review_interval_days: 180
+- id: dataset-openneuro
+  title: OpenNeuro EEG datasets
+  kind: dataset
+  level: intermediate
+  prerequisites:
+  - BIDS basics
+  url: https://openneuro.org/search/modality/eeg
+  why_useful: Collection of openly shared neuroimaging datasets that can be explored
+    using BIDS-aware tools.
+  does_not_cover: Dataset quality, permissions and task definitions vary by study.
+  status: active
+  provenance:
+    source_type: dataset-archive
+    last_verified: '2026-09-26'
+    review_interval_days: 180
+- id: dataset-dandi
+  title: DANDI Archive
+  kind: dataset
+  level: intermediate
+  prerequisites:
+  - metadata literacy
+  url: https://dandiarchive.org/
+  why_useful: Versioned archive for neurophysiology data with programmatic access
+    and rich metadata.
+  does_not_cover: Individual dandisets still require study-specific interpretation
+    and licensing review.
+  status: active
+  provenance:
+    source_type: dataset-archive
+    last_verified: '2026-09-26'
+    review_interval_days: 180
+- id: dataset-bci-competition-ii
+  title: BCI Competition II datasets
+  kind: dataset
+  level: advanced
+  prerequisites:
+  - EEG preprocessing
+  - classification
+  url: https://www.bbci.de/competition/ii/
+  why_useful: Historical benchmark datasets useful for understanding classic BCI evaluation
+    tasks.
+  does_not_cover: Competition datasets are not representative of every modern BCI
+    deployment scenario.
+  status: active
+  provenance:
+    source_type: dataset-archive
+    last_verified: '2026-09-26'
+    review_interval_days: 180
+- id: policy-unesco-neuroethics
+  title: UNESCO Recommendation on the Ethics of Neurotechnology
+  kind: policy
+  level: intermediate
+  prerequisites:
+  - basic neurotechnology vocabulary
+  url: https://www.unesco.org/en/node/86248
+  why_useful: Current international policy reference for ethical questions surrounding
+    neurotechnology.
+  does_not_cover: It is not a substitute for jurisdiction-specific law, institutional
+    review or technical standards.
+  status: active
+  provenance:
+    source_type: regulator-or-intergovernmental
+    last_verified: '2026-09-26'
+    review_interval_days: 90
+- id: policy-fda-bci
+  title: 'FDA: Implanted Brain-Computer Interface Devices'
+  kind: policy
+  level: advanced
+  prerequisites:
+  - medical-device vocabulary
+  url: https://www.fda.gov/regulatory-information/search-fda-guidance-documents/implanted-brain-computer-interface-bci-devices-patients-paralysis-or-amputation-non-clinical-testing
+  why_useful: Concrete regulatory reference for understanding that implanted BCI development
+    sits inside formal non-clinical and clinical evidence pathways.
+  does_not_cover: It is U.S. guidance, not universal law or a hands-on clinical training
+    manual.
+  status: active
+  provenance:
+    source_type: regulator-or-intergovernmental
+    last_verified: '2026-09-26'
+    review_interval_days: 90

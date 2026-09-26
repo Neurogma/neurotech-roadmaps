@@ -1,0 +1,25 @@
+id: artifact-analysis
+title: Artifact analysis lab
+level: intermediate
+objective: Compare ocular, muscle, movement and line-noise artifact handling strategies.
+prerequisite_skills:
+- eeg-fundamentals
+- signal-processing
+expected_hours: 10–16h
+inputs:
+- Public EEG or synthetic artifact injection
+tools: MNE, SciPy
+deliverables:
+- Artifact annotation table
+- figures
+- method comparison
+suggested_extensions:
+- ICA comparison
+- automated QC flags
+evaluation_criteria:
+- Artifact categories explained
+- raw vs cleaned preserved
+- correction audited
+common_failure_modes:
+- Assuming an automated method is always correct
+safety: Public data only; no clinical interpretation.

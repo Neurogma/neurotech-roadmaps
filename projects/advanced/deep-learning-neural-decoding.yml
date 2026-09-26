@@ -1,0 +1,27 @@
+id: deep-learning-neural-decoding
+title: Deep-learning neural decoding benchmark
+level: advanced
+objective: Compare a small temporal deep-learning model with a transparent baseline under identical subject-aware
+  evaluation.
+prerequisite_skills:
+- deep-learning
+- neural-decoding
+expected_hours: 20–35h
+inputs:
+- Public EEG dataset
+tools: PyTorch, MNE, scikit-learn
+deliverables:
+- Benchmark report
+- config
+- uncertainty analysis
+suggested_extensions:
+- Nested model selection
+- cross-session validation
+evaluation_criteria:
+- Fair preprocessing
+- no leakage
+- baseline included
+common_failure_modes:
+- Tuning test data
+- reporting only best run
+safety: Public data only.

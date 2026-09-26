@@ -1,0 +1,31 @@
+id: intracortical-interfaces
+title: Intracortical interface concepts
+domain: intracortical
+level: research
+description: Conceptual foundations of intracortical recording and decoding, including
+  electrode/tissue interface, spikes, population activity and long-term translational
+  constraints.
+learning_objectives:
+- Differentiate intracortical spikes, multi-unit activity and population-rate representations
+  at a conceptual level.
+- Explain why surgical access, electrode stability and data drift matter.
+- Read an intracortical BCI paper and identify measurement, decoding and user-level
+  outcomes.
+prerequisites:
+- physiology-neural
+- biomedical-engineering
+estimated_hours: "35\u201360"
+resources:
+- dataset-dandi
+evidence:
+- paper_critique
+- oral_explanation
+- written_plan
+common_misconceptions:
+- High-resolution recording means the neural variable is fully observed.
+safety: Do not attempt invasive procedures or implants outside qualified clinical/research
+  settings.
+sources:
+- paper-speech-neuroprosthesis
+exercise: Trace the pipeline in an intracortical communication paper from recording
+  to reported language metric.

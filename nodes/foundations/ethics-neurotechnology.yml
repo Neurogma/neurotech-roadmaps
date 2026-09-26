@@ -1,0 +1,22 @@
+id: ethics-neurotechnology
+title: Ethics of neurotechnology
+domain: ethics
+level: foundation
+description: 'Core ethical concepts for neurotechnology: autonomy, consent, privacy,
+  fairness, access, agency, responsibility and governance.'
+learning_objectives:
+- Identify ethical questions raised by neural sensing and intervention.
+- Distinguish technical feasibility from social acceptability.
+- Use a documented ethical framework to analyze a concrete case.
+prerequisites:
+- neuroscience-basics
+estimated_hours: "18\u201330"
+resources:
+- policy-unesco-neuroethics
+evidence:
+- paper_critique
+- oral_explanation
+- written_plan
+common_misconceptions:
+- Privacy is the only ethical issue in neurotechnology.
+exercise: Map stakeholders and risks for a hypothetical non-clinical brain-data application.

@@ -1,0 +1,27 @@
+id: signal-processing
+title: Digital signal processing
+domain: signal-processing
+level: foundation
+description: Sampling, filtering, convolution, Fourier transforms, spectra, time-frequency
+  trade-offs and noise for biosignals.
+learning_objectives:
+- Explain sampling and aliasing using a concrete example.
+- Apply filters while stating passband, stopband and phase implications.
+- Compute and interpret PSDs and simple time-frequency representations.
+prerequisites:
+- math-linear-algebra
+- math-calculus
+- python-scientific
+estimated_hours: "35\u201360"
+resources:
+- software-mne
+- software-scipy
+evidence:
+- implementation
+- derivation
+- notebook
+common_misconceptions:
+- Filtering always improves a signal.
+- A frequency band is a universal physiological label.
+exercise: Create a synthetic multisine with noise, filter it, and compare time- and
+  frequency-domain views.

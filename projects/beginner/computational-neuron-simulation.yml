@@ -1,0 +1,27 @@
+id: computational-neuron-simulation
+title: Computational neuron simulation
+level: beginner
+objective: Simulate a simple membrane or leaky integrate-and-fire neuron and explore parameters.
+prerequisite_skills:
+- physiology-neural
+- math-calculus
+- python-scientific
+expected_hours: 8–16h
+inputs:
+- Synthetic input current
+tools: Python, NumPy or NEURON
+deliverables:
+- Simulation notebook
+- parameter sweep
+- short technical note
+suggested_extensions:
+- Add conductance model
+- Compare with published dynamics
+evaluation_criteria:
+- Units are explicit
+- parameter effects are explained
+- rerun works
+common_failure_modes:
+- Treating a toy model as a full biophysical model
+- Hidden parameters
+safety: Simulation only.

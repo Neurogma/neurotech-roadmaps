@@ -1,0 +1,24 @@
+id: biomedical-engineering
+title: Biomedical engineering for neurotechnology
+domain: biomedical-engineering
+level: intermediate
+description: Device, tissue, measurement and translational constraints that sit between
+  engineering prototypes and health applications.
+learning_objectives:
+- Explain biocompatibility, measurement validity and human-factors concerns at a high
+  level.
+- Distinguish engineering prototypes from medical devices.
+- Identify when regulatory, clinical or institutional expertise becomes necessary.
+prerequisites:
+- physiology-neural
+estimated_hours: "25\u201345"
+resources:
+- policy-fda-bci
+evidence:
+- written_plan
+- oral_explanation
+- paper_critique
+common_misconceptions:
+- A benchtop prototype is equivalent to a validated clinical device.
+exercise: Map a hypothetical neural interface from prototype to clinical-use claim
+  and identify the additional evidence needed.

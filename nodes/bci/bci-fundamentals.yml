@@ -1,0 +1,31 @@
+id: bci-fundamentals
+title: BCI systems fundamentals
+domain: BCI
+level: advanced
+description: An end-to-end systems view of sensing, feature extraction, decoding,
+  feedback, user adaptation and evaluation in brain-computer interfaces.
+learning_objectives:
+- Describe a BCI as a closed-loop system with a defined control target.
+- Compare synchronous, asynchronous and adaptive interaction patterns.
+- Design an evaluation plan that separates algorithmic performance from user-facing
+  performance.
+prerequisites:
+- eeg-fundamentals
+- neural-decoding
+- signal-processing
+estimated_hours: "25\u201345"
+resources:
+- software-moabb
+evidence:
+- explanation
+- project
+- oral_explanation
+common_misconceptions:
+- BCI equals EEG plus a classifier.
+safety: Clinical/invasive BCI work requires professional and regulatory structures.
+ethics: Consider autonomy, agency, accessibility and data governance.
+sources:
+- paper-wolpaw-bci
+- paper-bci2000
+exercise: Draw an end-to-end BCI pipeline and label where latency, uncertainty and
+  user adaptation enter.

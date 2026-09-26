@@ -1,0 +1,28 @@
+id: computational-neuroscience
+title: Computational neuroscience
+domain: computational-neuroscience
+level: advanced
+description: Mathematical and computational models of neurons, circuits, dynamics,
+  coding and inference.
+learning_objectives:
+- Implement a simple membrane or spiking-neuron model.
+- Interpret a dynamical system using parameters, state and timescale.
+- Compare a mechanistic model with a purely predictive decoder.
+prerequisites:
+- physiology-neural
+- math-calculus
+- math-linear-algebra
+- python-scientific
+estimated_hours: "60\u2013100"
+resources:
+- software-neuron
+evidence:
+- derivation
+- implementation
+- paper_critique
+common_misconceptions:
+- A model that predicts well is automatically mechanistically explanatory.
+sources:
+- paper-hodgkin-huxley
+exercise: Simulate a leaky integrate-and-fire neuron and inspect how input changes
+  firing.

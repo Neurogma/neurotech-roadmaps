@@ -1,0 +1,22 @@
+id: probability
+title: Probability foundations
+domain: probability
+level: foundation
+description: Random variables, conditional probability, distributions, expectation
+  and uncertainty reasoning for noisy neural measurements.
+learning_objectives:
+- Compute conditional probabilities for simple diagnostic examples.
+- Interpret expectation, variance and covariance.
+- Explain why uncertainty belongs in both measurements and model outputs.
+prerequisites: []
+estimated_hours: "18\u201330"
+resources:
+- course-mit-probability
+evidence:
+- quiz
+- derivation
+- explanation
+common_misconceptions:
+- A high classifier accuracy is meaningful without knowing class balance or evaluation
+  design.
+exercise: Work through a false-positive example and identify base-rate effects.

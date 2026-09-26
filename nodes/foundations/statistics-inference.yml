@@ -1,0 +1,25 @@
+id: statistics-inference
+title: Statistics and inference
+domain: statistics
+level: foundation
+description: Descriptive statistics, uncertainty, estimation, hypothesis testing,
+  effect sizes and resampling for scientific analysis.
+learning_objectives:
+- Choose summaries that preserve important structure in neural data.
+- Explain confidence intervals and sampling variability without treating them as probabilities
+  about fixed parameters.
+- Use resampling or held-out evaluation to quantify uncertainty appropriately.
+prerequisites:
+- probability
+estimated_hours: "25\u201345"
+resources:
+- book-statistical-learning
+evidence:
+- derivation
+- implementation
+- paper_critique
+common_misconceptions:
+- Statistical significance is the same as practical significance.
+- Repeatedly tuning on a test set preserves unbiased evaluation.
+exercise: Compare a parametric interval with a bootstrap interval on a toy classifier
+  score.

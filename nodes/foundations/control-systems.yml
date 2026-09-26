@@ -1,0 +1,24 @@
+id: control-systems
+title: Control systems
+domain: control
+level: intermediate
+description: Feedback, state, stability, tracking and controller design concepts for
+  closed-loop human-machine systems.
+learning_objectives:
+- Differentiate open-loop and closed-loop control.
+- Explain stability and latency in a simple feedback loop.
+- Simulate a controller and inspect tracking/error behavior.
+prerequisites:
+- math-linear-algebra
+- math-calculus
+- python-scientific
+estimated_hours: "30\u201350"
+resources:
+- course-mit-control
+evidence:
+- derivation
+- implementation
+- project
+common_misconceptions:
+- A stable controller is automatically appropriate for a human-facing system.
+exercise: Simulate a first-order plant with proportional control and vary latency.

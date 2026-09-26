@@ -1,0 +1,22 @@
+id: scientific-writing
+title: Scientific writing and reporting
+domain: scientific-writing
+level: foundation
+description: Clear claims, methods reporting, figure captions, uncertainty and reproducible
+  narrative for technical work.
+learning_objectives:
+- Write a methods section that another learner can reproduce.
+- Separate results from interpretation.
+- State limitations without turning them into boilerplate.
+prerequisites: []
+estimated_hours: "12\u201324"
+resources:
+- course-scientific-writing
+evidence:
+- written_plan
+- code_review
+- paper_critique
+common_misconceptions:
+- A polished graph makes a weak experimental design strong.
+exercise: Rewrite a model result paragraph so it distinguishes measured accuracy from
+  broader interpretation.

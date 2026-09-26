@@ -1,0 +1,26 @@
+id: spike-train-analysis
+title: Spike-train analysis
+domain: computational-neuroscience
+level: advanced
+description: Time-resolved analysis of point-process neural events, firing rates,
+  variability and simple population statistics.
+learning_objectives:
+- Compute firing-rate estimates and describe their smoothing assumptions.
+- Compare inter-spike intervals and variability metrics.
+- Explain the difference between a spike train and continuous field potentials.
+prerequisites:
+- probability
+- statistics-inference
+- python-scientific
+estimated_hours: "20\u201335"
+resources:
+- software-neuron
+- dataset-dandi
+evidence:
+- implementation
+- derivation
+- notebook
+common_misconceptions:
+- A firing-rate curve is the raw neural signal.
+exercise: Generate synthetic Poisson and refractory spike trains and compare summary
+  statistics.

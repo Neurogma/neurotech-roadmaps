@@ -1,0 +1,25 @@
+id: p300-analysis
+title: P300 event-related potential analysis
+domain: EEG
+level: advanced
+description: Task-specific event-related potential analysis using event timing, baseline
+  correction and robust evaluation.
+learning_objectives:
+- Construct epochs around events and inspect event-related averages.
+- Explain latency, amplitude and baseline choices.
+- Evaluate a P300 classification task without mixing participant information across
+  splits.
+prerequisites:
+- eeg-preprocessing
+- neural-decoding
+estimated_hours: "20\u201335"
+resources:
+- dataset-bci-competition-ii
+evidence:
+- notebook
+- reproducible_experiment
+- paper_critique
+common_misconceptions:
+- P300 amplitude is a direct marker of a single cognitive process.
+exercise: Plot target/non-target ERPs on a public P300 dataset and compare subject-wise
+  classification.

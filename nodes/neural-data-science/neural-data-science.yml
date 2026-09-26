@@ -1,0 +1,30 @@
+id: neural-data-science
+title: Neural data science
+domain: neural-data-science
+level: advanced
+description: An analysis discipline combining statistical reasoning, signal processing,
+  machine learning, metadata, provenance and reproducible computation for neural datasets.
+learning_objectives:
+- Build an analysis with explicit data provenance and subject-aware evaluation.
+- Integrate signal-derived features with metadata without leaking held-out information.
+- Communicate uncertainty and limitations in a reproducible report.
+prerequisites:
+- statistics-inference
+- signal-processing
+- research-methodology
+- machine-learning
+estimated_hours: "45\u201380"
+resources:
+- dataset-openneuro
+- dataset-dandi
+- software-mne
+evidence:
+- project
+- reproducible_experiment
+- code_review
+common_misconceptions:
+- More data automatically means more valid inference.
+ethics: Treat metadata as potentially sensitive and restrict analyses to the stated
+  scope.
+exercise: Create a metadata-first analysis table and verify that participant identifiers
+  do not cross evaluation boundaries.

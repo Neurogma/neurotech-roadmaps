@@ -1,0 +1,26 @@
+id: neuroscience-basics
+title: Neuroscience fundamentals
+domain: neuroscience
+level: foundation
+description: A working conceptual map of neurons, synapses, circuits, brain systems,
+  plasticity, and experimental vocabulary.
+learning_objectives:
+- Explain the membrane potential and synaptic communication at a qualitative level.
+- Distinguish neural activity, behavior, and measurement.
+- Locate major brain structures relevant to common neurotechnology tasks.
+prerequisites: []
+estimated_hours: "18\u201330"
+resources:
+- course-human-brain
+- book-neuroscience-purves
+evidence:
+- explanation
+- quiz
+- oral_explanation
+common_misconceptions:
+- A measurement from the nervous system is an observation produced by a particular
+  sensing method, not a direct readout of a mental state.
+ethics: Use population- and task-specific language; avoid overclaiming what measurements
+  imply.
+exercise: Annotate a simple sensor-to-brain-to-behavior diagram and label what is
+  measured versus inferred.

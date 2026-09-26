@@ -1,0 +1,25 @@
+id: closed-loop-control-simulation
+title: Closed-loop control simulation
+level: intermediate
+objective: Simulate feedback control with delay, uncertainty and a safe stop state.
+prerequisite_skills:
+- control-systems
+- python-scientific
+expected_hours: 10–18h
+inputs:
+- Synthetic plant
+tools: Python/control simulation tools
+deliverables:
+- State diagram
+- simulation
+- latency analysis
+suggested_extensions:
+- Shared control
+- fault injection
+evaluation_criteria:
+- Stable nominal case
+- failure state tested
+common_failure_modes:
+- No stop condition
+- ignoring delay
+safety: Simulation only.

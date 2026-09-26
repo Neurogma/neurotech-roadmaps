@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:neurotech-roadmaps:schema:paper",
+  "title": "Paper guide",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "authors",
+    "year",
+    "venue",
+    "doi",
+    "url",
+    "level",
+    "estimated_hours",
+    "why_it_matters",
+    "prerequisite_knowledge",
+    "research_question",
+    "method",
+    "dataset_or_participants",
+    "major_result",
+    "limitations",
+    "reproducibility_notes",
+    "related_papers",
+    "learner_should_extract"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^paper-[a-z0-9-]+$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 10
+    },
+    "authors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "year": {
+      "type": "integer",
+      "minimum": 1900
+    },
+    "venue": {
+      "type": "string"
+    },
+    "doi": {
+      "type": "string",
+      "minLength": 5
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "level": {
+      "enum": [
+        "foundation",
+        "intermediate",
+        "advanced",
+        "research"
+      ]
+    },
+    "estimated_hours": {
+      "type": "string"
+    },
+    "why_it_matters": {
+      "type": "string",
+      "minLength": 20
+    },
+    "prerequisite_knowledge": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "research_question": {
+      "type": "string",
+      "minLength": 15
+    },
+    "method": {
+      "type": "string",
+      "minLength": 20
+    },
+    "dataset_or_participants": {
+      "type": "string",
+      "minLength": 15
+    },
+    "major_result": {
+      "type": "string",
+      "minLength": 15
+    },
+    "limitations": {
+      "type": "string",
+      "minLength": 15
+    },
+    "reproducibility_notes": {
+      "type": "string",
+      "minLength": 15
+    },
+    "related_papers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "learner_should_extract": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 2
+    }
+  }
+}

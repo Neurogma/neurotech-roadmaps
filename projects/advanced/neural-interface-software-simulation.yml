@@ -1,0 +1,31 @@
+id: neural-interface-software-simulation
+title: Neural interface software simulation
+level: advanced
+objective: Simulate a streaming neural interface with timestamps, decoding confidence, state transitions and manual
+  override.
+prerequisite_skills:
+- bci-fundamentals
+- embedded-systems
+- human-machine-interaction
+expected_hours: 20–35h
+inputs:
+- Synthetic or replayed public signals
+tools: Python, asyncio/queue concepts, MNE/scikit-learn
+deliverables:
+- Architecture diagram
+- simulation
+- logs
+- failure tests
+suggested_extensions:
+- Latency budget
+- adaptive decoder
+- fault injection
+evaluation_criteria:
+- Safe states
+- time ordering
+- recoverability
+- replayability
+common_failure_modes:
+- Directly mapping classifier output to actuator
+- No logging
+safety: Simulation only; no physical actuation.

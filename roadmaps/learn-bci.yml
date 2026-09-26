@@ -1,0 +1,88 @@
+id: learn-bci
+title: I want to learn BCI
+audience: Learners who want an end-to-end, non-clinical understanding of BCI systems,
+  with EEG as the main entry modality.
+prerequisites:
+- neuroscience-basics
+- python-scientific
+- math-linear-algebra
+destination_outcomes:
+- "Explain the sensing\u2013decoding\u2013feedback loop and its assumptions."
+- Build and evaluate a reproducible non-clinical EEG decoder.
+- Read BCI studies by task, data, evaluation design and limitations.
+estimated_hours:
+  explorer: "8\u201315"
+  builder: "90\u2013140"
+  researcher: "180\u2013300+"
+core_path:
+- neuroscience-basics
+- neuroanatomy-basics
+- physiology-neural
+- math-linear-algebra
+- math-calculus
+- python-scientific
+- signal-processing
+- biological-signals
+- eeg-fundamentals
+- eeg-preprocessing
+- probability
+- statistics-inference
+- machine-learning
+- scientific-writing
+- research-methodology
+- experimental-design
+- neural-decoding
+- bci-fundamentals
+optional_branches:
+- p300-analysis
+- ssvep-analysis
+- motor-imagery-pipeline
+- deep-learning
+projects:
+- signal-visualization
+- eeg-preprocessing
+- psd-analysis
+- motor-imagery-pipeline
+- neural-interface-software-simulation
+- deep-learning-neural-decoding
+- p300-analysis
+- ssvep-analysis
+papers:
+- paper-wolpaw-bci
+- paper-bci2000
+- paper-p300-speller
+- paper-higashi-tanaka-cstfp
+- paper-moabb-2018
+datasets:
+- dataset-eegmmidb
+- dataset-openneuro
+- dataset-bci-competition-ii
+resources:
+- software-mne
+- software-mne-bids
+- software-moabb
+- software-scikit-learn
+starting_assumptions:
+- Basic algebra and one programming language help, but the default path fills the
+  main gaps.
+- Use public datasets and simulation rather than collecting data.
+minimum_viable_path: Reach EEG preprocessing, PSD analysis and a transparent decoder
+  on public data with subject-aware evaluation; stop there before adding deep learning.
+deeper_path: Add multiple paradigms, cross-session/cross-subject evaluation, uncertainty,
+  adaptive interaction and primary-literature critique.
+common_misconceptions:
+- BCI is not synonymous with reading thoughts; the decoder is trained for a defined
+  target under defined conditions.
+- Within-subject accuracy is not evidence of generalization to new people.
+typical_failure_modes:
+- Leakage through preprocessing or split design, unclear event definitions, and treating
+  a classifier score as a system-level performance measure.
+safety: Use public data and simulation. Invasive or clinical BCI work requires appropriate
+  professional, institutional and regulatory structures.
+ethics: Keep autonomy, agency, accessibility, participant burden and neural-data governance
+  explicit when evaluating a BCI.
+research_directions:
+- Cross-subject generalization, calibration reduction, uncertainty, adaptive BCIs,
+  multimodal interfaces and long-term robustness.
+next_steps: Use the 12-week plan as the builder entry point, then choose a P300, SSVEP
+  or motor-imagery branch.

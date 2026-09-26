@@ -1,0 +1,23 @@
+id: neuroimaging-comparison
+title: Neuroimaging modality comparison
+level: intermediate
+objective: Compare EEG, MEG, fNIRS, fMRI and PET by measurement principle, spatial/temporal scale and inference.
+prerequisite_skills:
+- neuroimaging-fundamentals
+- statistics-inference
+expected_hours: 8–16h
+inputs:
+- Official modality references
+tools: Markdown/table tool
+deliverables:
+- Comparison matrix
+- short methods note
+suggested_extensions:
+- Add source modeling
+- add multimodal example
+evaluation_criteria:
+- No single overall “best” column
+- trade-offs explained
+common_failure_modes:
+- Reducing modalities to one resolution number
+safety: Educational only.

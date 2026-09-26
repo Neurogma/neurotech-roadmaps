@@ -1,0 +1,25 @@
+id: ssvep-analysis
+title: SSVEP analysis
+level: intermediate
+objective: Extract stimulus-frequency features and evaluate a multi-class SSVEP task.
+prerequisite_skills:
+- eeg-preprocessing
+- signal-processing
+- machine-learning
+expected_hours: 12–24h
+inputs:
+- BCI Competition II SSVEP data
+tools: MNE, SciPy, scikit-learn
+deliverables:
+- Spectral plots
+- feature table
+- metrics
+suggested_extensions:
+- Harmonic features
+- subject transfer
+evaluation_criteria:
+- Stimulus frequencies verified
+- evaluation split explicit
+common_failure_modes:
+- Interpreting spectral peaks outside task context
+safety: Public data only.

@@ -1,0 +1,27 @@
+id: neural-decoding
+title: Neural decoding fundamentals
+domain: neural-decoding
+level: advanced
+description: Task-defined inference from neural measurements using transparent features,
+  models, validation and uncertainty.
+learning_objectives:
+- Define a decoding target in operational terms.
+- Build a leakage-resistant baseline from features to prediction.
+- Report subject-wise performance, uncertainty and limitations.
+prerequisites:
+- eeg-preprocessing
+- machine-learning
+- experimental-design
+estimated_hours: "35\u201360"
+resources:
+- software-moabb
+- software-scikit-learn
+- dataset-eegmmidb
+evidence:
+- reproducible_experiment
+- project
+- paper_critique
+common_misconceptions:
+- Decoding a task label means decoding a private thought.
+- A higher score on one dataset proves a general BCI capability.
+exercise: Compare within-session and cross-subject decoding and explain the difference.

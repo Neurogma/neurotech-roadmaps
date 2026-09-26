@@ -1,0 +1,22 @@
+id: robotics
+title: Robotics for neurotechnology
+domain: robotics
+level: advanced
+description: Kinematics, actuators, state estimation and human-robot interaction as
+  they relate to assistive systems and neuroprosthetics.
+learning_objectives:
+- Model a small manipulator or assistive actuator at a conceptual level.
+- Connect decoded intent to a state machine rather than directly to unsafe actuation.
+- Evaluate latency and uncertainty in a human-robot loop.
+prerequisites:
+- control-systems
+- python-scientific
+estimated_hours: "40\u201370"
+evidence:
+- project
+- code_review
+- oral_explanation
+common_misconceptions:
+- Decoder output should be sent directly to a physical actuator.
+exercise: Create a simulated intent-to-state machine controller with an explicit stop
+  state.

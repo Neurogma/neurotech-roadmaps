@@ -1,0 +1,24 @@
+id: human-machine-interaction
+title: Human-machine interaction for neural systems
+domain: human-machine-interaction
+level: advanced
+description: Interaction design for systems where neural signals are one input among
+  uncertain human and machine states.
+learning_objectives:
+- Design a user interaction loop that tolerates uncertainty and latency.
+- Specify feedback, override and failure states for a neural interface.
+- Evaluate usability separately from decoder accuracy.
+prerequisites:
+- control-systems
+estimated_hours: "25\u201345"
+evidence:
+- project
+- oral_explanation
+- code_review
+common_misconceptions:
+- Decoder accuracy is equivalent to user experience.
+ethics: Preserve user agency and recoverability from system errors.
+sources:
+- paper-wolpaw-bci
+exercise: Design a state diagram for a BCI-controlled cursor with idle, active, uncertain
+  and manual-override states.

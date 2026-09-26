@@ -1,0 +1,31 @@
+id: paper-hodgkin-huxley
+title: A quantitative description of membrane current and its application to conduction and excitation in nerve
+authors:
+- A. L. Hodgkin
+- A. F. Huxley
+year: 1952
+venue: The Journal of Physiology
+doi: 10.1113/jphysiol.1952.sp004764
+url: https://pubmed.ncbi.nlm.nih.gov/12991237/
+level: research
+estimated_hours: 6–12h
+why_it_matters: Landmark mechanistic model of action-potential generation; a foundation for understanding biophysical
+  neuron models.
+prerequisite_knowledge:
+- membrane physiology
+- differential equations helpful
+research_question: How can membrane currents be modeled quantitatively to explain conduction and excitation in nerve?
+method: Experimental current/voltage relationships combined with a coupled dynamical model of membrane currents.
+dataset_or_participants: Classical nerve physiology experiments; no modern public dataset is central to the paper.
+major_result: A quantitative model can reproduce key features of action-potential dynamics and conduction.
+limitations: Historical experimental methods and model assumptions are simplified relative to modern cellular diversity
+  and ion-channel knowledge.
+reproducibility_notes: The original experimental record is historical; learning value is highest from reimplementing
+  the equations and examining parameter sensitivity.
+related_papers:
+- paper-wolpaw-bci
+learner_should_extract:
+- model structure
+- state variables and parameters
+- what was measured vs inferred
+- limits of mechanistic modeling

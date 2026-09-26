@@ -1,0 +1,25 @@
+id: python-scientific
+title: Python and scientific computing
+domain: programming
+level: foundation
+description: Python fundamentals plus NumPy, SciPy, pandas, plotting, notebooks and
+  environment management for scientific work.
+learning_objectives:
+- Write readable Python functions and tests for numerical analysis.
+- Manipulate arrays and tabular metadata safely.
+- Create a reproducible environment and notebook that records inputs and outputs.
+prerequisites: []
+estimated_hours: "25\u201350"
+resources:
+- docs-python
+- software-numpy
+- software-scipy
+- software-jupyter
+evidence:
+- implementation
+- notebook
+- code_review
+common_misconceptions:
+- A notebook is automatically reproducible.
+exercise: Load a small CSV, validate shapes and missing values, compute a summary
+  statistic and save a figure.

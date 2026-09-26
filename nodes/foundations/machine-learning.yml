@@ -1,0 +1,27 @@
+id: machine-learning
+title: Machine learning for neural data
+domain: machine-learning
+level: intermediate
+description: Supervised learning, feature engineering, cross-validation, regularization
+  and evaluation for neural datasets.
+learning_objectives:
+- Build a baseline classifier with a documented train/validation/test strategy.
+- Explain why preprocessing must be fitted without using held-out data.
+- Compare metrics under class imbalance and identify variance across subjects.
+prerequisites:
+- statistics-inference
+- math-linear-algebra
+- python-scientific
+estimated_hours: "35\u201360"
+resources:
+- software-scikit-learn
+- book-statistical-learning
+evidence:
+- implementation
+- reproducible_experiment
+- code_review
+common_misconceptions:
+- High within-subject accuracy implies strong cross-subject generalization.
+- A model score is independent of the data split.
+exercise: Benchmark logistic regression and an ensemble on a synthetic subject-shift
+  dataset using subject-wise splits.

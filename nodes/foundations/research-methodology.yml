@@ -1,0 +1,25 @@
+id: research-methodology
+title: Research methodology
+domain: research-methodology
+level: foundation
+description: Question formulation, study design, measurement validity, preregistration
+  concepts, reporting and critical appraisal.
+learning_objectives:
+- Translate an engineering idea into a testable research question.
+- Identify confounds, measurement validity issues and selection effects.
+- Describe what evidence would change a conclusion.
+prerequisites:
+- statistics-inference
+- scientific-writing
+estimated_hours: "20\u201335"
+resources:
+- course-human-brain
+- book-statistical-learning
+evidence:
+- paper_critique
+- oral_explanation
+- written_plan
+common_misconceptions:
+- More participants automatically solve every design problem.
+exercise: "Rewrite a vague \u201CBCI accuracy\u201D claim into a falsifiable task-specific\
+  \ hypothesis and analysis plan."

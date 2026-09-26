@@ -1,0 +1,26 @@
+id: neuromodulation-evidence-review
+title: Neuromodulation evidence review
+level: research
+objective: Compare two broad neuromodulation approaches using primary literature and official guidance without supplying
+  operating parameters.
+prerequisite_skills:
+- neuromodulation-fundamentals
+- research-methodology
+expected_hours: 18–30h
+inputs:
+- Peer-reviewed papers and official regulatory/ethics resources
+tools: Markdown, reference manager
+deliverables:
+- Evidence table
+- comparison narrative
+- limitations
+suggested_extensions:
+- Add systematic-search protocol
+- stakeholder impact analysis
+evaluation_criteria:
+- Study type distinguished
+- indication context preserved
+- safety framing included
+common_failure_modes:
+- Treating mechanism plausibility as efficacy
+safety: No stimulation parameters or DIY procedure.

@@ -1,0 +1,62 @@
+id: neural-data-science
+title: I want to enter neural data science
+audience: Python-capable learners who want research-grade habits for neural datasets
+  rather than a modality-specific specialization first.
+prerequisites:
+- python-scientific
+- statistics-inference
+- signal-processing
+destination_outcomes:
+- Build an analysis with explicit provenance and subject-aware evaluation.
+- Use statistical and machine-learning baselines without leakage.
+- Communicate uncertainty, dataset limitations and reproducibility details.
+estimated_hours:
+  explorer: "8\u201315"
+  builder: "70\u2013120"
+  researcher: "160\u2013280+"
+core_path:
+- math-linear-algebra
+- math-calculus
+- python-scientific
+- probability
+- statistics-inference
+- signal-processing
+- machine-learning
+- scientific-writing
+- research-methodology
+- neural-data-science
+optional_branches:
+- deep-learning
+projects:
+- psd-analysis
+- simple-neural-decoding
+- neural-data-science-analysis
+papers:
+- paper-moabb-2018
+- paper-bids
+datasets:
+- dataset-eegmmidb
+- dataset-openneuro
+- dataset-dandi
+resources:
+- software-mne
+- software-scikit-learn
+- standard-bids
+starting_assumptions:
+- The core route assumes basic Python; learners who lack it should start at python-scientific.
+minimum_viable_path: Take one public neural dataset from provenance to analysis, using
+  a held-out evaluation design and a short reproducibility report.
+deeper_path: Add cross-dataset validation, uncertainty analysis, model comparison
+  and multimodal data integration.
+common_misconceptions:
+- A large model does not rescue poor dataset definition or a leaky evaluation design.
+typical_failure_modes:
+- Optimizing the test set, ignoring subject/session structure, and reporting only
+  aggregate metrics.
+ethics: Treat data provenance, consent, access control and potential inferences as
+  part of the analysis design.
+research_directions:
+- Dataset shift, uncertainty, multimodal integration, scalable provenance and subject-aware
+  evaluation.
+next_steps: Specialize in EEG/BCI, neuroimaging or computational neuroscience once
+  the analysis workflow is stable.

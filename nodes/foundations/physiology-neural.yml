@@ -1,0 +1,23 @@
+id: physiology-neural
+title: Neural physiology and electrical signaling
+domain: physiology
+level: foundation
+description: The physiological basis of membrane potentials, ionic currents, action
+  potentials and synaptic transmission needed to interpret biological electrical measurements.
+learning_objectives:
+- Explain resting and action potentials qualitatively and with a simple membrane model.
+- Distinguish extracellular field signals from single-neuron intracellular measurements.
+- Describe why tissue conductivity and volume conduction affect recorded signals.
+prerequisites:
+- neuroscience-basics
+estimated_hours: "20\u201336"
+evidence:
+- derivation
+- explanation
+- oral_explanation
+common_misconceptions:
+- EEG measures individual action potentials directly.
+sources:
+- paper-hodgkin-huxley
+exercise: Sketch how a propagating action potential can contribute to an extracellular
+  recording without assuming direct one-to-one correspondence.

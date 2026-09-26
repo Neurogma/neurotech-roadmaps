@@ -1,0 +1,25 @@
+id: embedded-systems
+title: Embedded systems for neural devices
+domain: embedded-systems
+level: intermediate
+description: Firmware, sampling, buffering, timing, communication and resource constraints
+  for neural sensing/control prototypes.
+learning_objectives:
+- Design a simple acquisition state machine and data buffer.
+- Explain timestamping and sampling-clock assumptions.
+- Separate device firmware from host-side analysis.
+prerequisites:
+- electronics-biosignals
+- control-systems
+estimated_hours: "30\u201350"
+resources:
+- software-brainflow
+- software-openbci
+evidence:
+- implementation
+- code_review
+- reproducible_experiment
+common_misconceptions:
+- A real-time interface is just a notebook with a faster loop.
+exercise: Simulate a streamed biosignal with dropped packets and detect gaps from
+  timestamps.

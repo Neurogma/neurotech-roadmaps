@@ -1,0 +1,37 @@
+id: paper-moabb-2018
+title: 'MOABB: trustworthy algorithm benchmarking for BCIs'
+authors:
+- Vinay Jayaram
+- Alexandre Barachant
+year: 2018
+venue: Journal of Neural Engineering
+doi: 10.1088/1741-2552/aadea0
+url: https://pubmed.ncbi.nlm.nih.gov/30177583/
+level: advanced
+estimated_hours: 5–10h
+why_it_matters: Connects BCI algorithm comparison with a reproducible software framework and makes dataset-dependent
+  generalization a central evaluation issue.
+prerequisite_knowledge:
+- EEG preprocessing
+- machine learning
+- cross-validation basics
+research_question: How can BCI algorithm development be benchmarked across multiple open datasets using a more consistent
+  software and evaluation framework?
+method: Open-source benchmarking framework built around standardized dataset access, preprocessing and machine-learning
+  pipeline interfaces, followed by comparisons across multiple public datasets.
+dataset_or_participants: Twelve open-access datasets covering more than 250 subjects in the reported benchmark study.
+major_result: The study reports that methods validated on a single dataset may not generalize well and argues for
+  broader, more reproducible benchmarking.
+limitations: The benchmark reflects the datasets, paradigms and algorithms available at publication time; benchmark
+  design itself can introduce assumptions about what counts as a fair comparison.
+reproducibility_notes: Re-run a small MOABB benchmark with explicit dataset versions, evaluation scheme and pipeline
+  configuration, then inspect whether conclusions persist across datasets.
+related_papers:
+- paper-wolpaw-bci
+- paper-bci2000
+learner_should_extract:
+- benchmark scope
+- dataset dependence
+- evaluation scheme
+- pipeline reproducibility
+- what generalization claim is justified

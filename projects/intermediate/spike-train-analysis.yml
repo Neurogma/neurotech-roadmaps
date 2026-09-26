@@ -1,0 +1,25 @@
+id: spike-train-analysis
+title: Spike train analysis
+level: intermediate
+objective: Analyze synthetic or public spike trains for rates, intervals and variability.
+prerequisite_skills:
+- probability
+- statistics-inference
+- python-scientific
+expected_hours: 12–20h
+inputs:
+- Synthetic spike trains or appropriately licensed public data
+tools: NumPy, SciPy, DANDI tools
+deliverables:
+- Notebook
+- rate/ISI figures
+- methods note
+suggested_extensions:
+- Point-process models
+- population analysis
+evaluation_criteria:
+- Smoothing parameters explicit
+- simulations tested
+common_failure_modes:
+- Treating a smoothed rate as raw activity
+safety: Use public/synthetic data.

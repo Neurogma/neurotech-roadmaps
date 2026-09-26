@@ -1,0 +1,34 @@
+id: paper-bci2000
+title: 'BCI2000: A General-Purpose Brain-Computer Interface (BCI) System'
+authors:
+- Gerwin Schalk
+- Dennis J. McFarland
+- Thilo Hinterberger
+- Niels Birbaumer
+- Jonathan R. Wolpaw
+year: 2004
+venue: IEEE Transactions on Biomedical Engineering
+doi: 10.1109/TBME.2004.827072
+url: https://pubmed.ncbi.nlm.nih.gov/15188875/
+level: intermediate
+estimated_hours: 4–8h
+why_it_matters: Shows how BCI research benefits from modular systems architecture and systematic comparison of signals,
+  processing and outputs.
+prerequisite_knowledge:
+- BCI fundamentals
+- software architecture basics
+research_question: Can a general-purpose platform support systematic BCI research across signals, processing methods
+  and output devices?
+method: Description and evaluation of a modular BCI research and development platform.
+dataset_or_participants: Examples from BCI implementations using different signals and paradigms.
+major_result: A modular platform can reduce the cost of implementing and comparing BCI systems.
+limitations: The platform reflects the hardware, software and research conventions of its publication period.
+reproducibility_notes: Study the system decomposition and experiment interfaces; do not assume modern dependencies
+  or hardware are identical.
+related_papers:
+- paper-wolpaw-bci
+learner_should_extract:
+- system decomposition
+- real-time constraints
+- experiment configuration
+- comparison methodology

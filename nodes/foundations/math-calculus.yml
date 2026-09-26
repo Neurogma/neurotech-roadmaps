@@ -1,0 +1,21 @@
+id: math-calculus
+title: Calculus for dynamical signals
+domain: mathematics
+level: foundation
+description: Derivatives, integrals, ordinary differential equations and basic continuous-time
+  reasoning used for neural dynamics and signal models.
+learning_objectives:
+- Interpret derivatives and integrals in a signal-processing context.
+- Solve or numerically approximate simple first-order differential equations.
+- Relate frequency-domain intuition to time-domain change.
+prerequisites: []
+estimated_hours: "25\u201345"
+resources:
+- course-mit-calculus
+evidence:
+- derivation
+- implementation
+common_misconceptions:
+- A differential equation solution is meaningful without checking parameter units
+  and assumptions.
+exercise: Numerically simulate a leaky integrator and compare time constants.

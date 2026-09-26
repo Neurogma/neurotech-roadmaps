@@ -1,0 +1,58 @@
+id: neuroethics
+title: I want to study neuroethics
+audience: Learners who want to analyze ethical and governance questions arising from
+  neural sensing, decoding and intervention.
+prerequisites:
+- neuroscience-basics
+destination_outcomes:
+- Define a concrete neurotechnology case before making a normative claim.
+- Separate empirical findings, engineering assumptions and normative recommendations.
+- Write a sourced policy brief that names stakeholders, trade-offs and uncertainty.
+estimated_hours:
+  explorer: "6\u201312"
+  builder: "45\u201375"
+  researcher: "100\u2013180+"
+core_path:
+- neuroscience-basics
+- ethics-neurotechnology
+- scientific-writing
+- probability
+- statistics-inference
+- research-methodology
+- neuroethics-domain
+optional_branches:
+- neurotechnology-governance
+projects:
+- neuroethics-policy-brief
+- experiment-protocol-review
+papers:
+- paper-wolpaw-bci
+- paper-speech-neuroprosthesis
+datasets:
+- dataset-eegmmidb
+resources:
+- policy-unesco-neuroethics
+starting_assumptions:
+- No legal training is required; the path teaches how to scope and source technical
+  claims.
+minimum_viable_path: "Produce a 1,500\u20132,000 word policy brief on one defined\
+  \ neurotechnology governance issue with primary or authoritative references and\
+  \ a stakeholder map."
+deeper_path: Compare governance approaches across jurisdictions or institutions and
+  connect normative arguments to technical system choices.
+common_misconceptions:
+- Technical feasibility and ethical acceptability are different questions.
+- "Calling neural data \u201Cprivate\u201D is not a complete analysis without examining\
+  \ purpose, inference, access and governance."
+typical_failure_modes:
+- Writing broad moral claims without defining the technology, population, data, harm
+  or governance mechanism.
+safety: No special physical safety issue for the learning path; do not present legal
+  commentary as jurisdiction-independent legal advice.
+ethics: Analyze mental privacy, autonomy, agency, fairness, accessibility, consent
+  and data governance with attributed evidence.
+research_directions:
+- Mental privacy, agency in adaptive systems, neurotechnology access, workplace and
+  education governance, disability justice and international governance.
+next_steps: Choose a concrete technical domain and revisit the ethical questions with
+  domain-specific evidence.

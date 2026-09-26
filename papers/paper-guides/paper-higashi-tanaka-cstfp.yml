@@ -1,0 +1,34 @@
+id: paper-higashi-tanaka-cstfp
+title: Common spatio-time-frequency patterns for motor imagery-based brain machine interfaces
+authors:
+- Hiroshi Higashi
+- Toshihisa Tanaka
+year: 2013
+venue: Computational Intelligence and Neuroscience
+doi: 10.1155/2013/537218
+url: https://pubmed.ncbi.nlm.nih.gov/24302929/
+level: advanced
+estimated_hours: 6–12h
+why_it_matters: Concrete example of feature learning that jointly considers spatial, frequency and temporal structure
+  in motor-imagery EEG.
+prerequisite_knowledge:
+- EEG preprocessing
+- filtering
+- linear algebra
+- classification basics
+research_question: How can spatial, frequency and time patterns be selected jointly for motor-imagery EEG decoding?
+method: Data-driven criterion extending common spatial patterns with time and frequency structure, optimized iteratively.
+dataset_or_participants: EEG recordings from motor-imagery experiments described in the paper.
+major_result: The proposed spatio-time-frequency features improved discriminative extraction for the studied motor-imagery
+  BMI tasks.
+limitations: Results are task- and dataset-dependent; feature engineering choices need re-evaluation on current
+  datasets.
+reproducibility_notes: Prefer reimplementation on an openly available motor-imagery dataset and compare against
+  a transparent CSP or filter-bank baseline.
+related_papers:
+- paper-wolpaw-bci
+learner_should_extract:
+- feature assumptions
+- optimization objective
+- baseline comparison
+- generalization limits

@@ -1,0 +1,26 @@
+id: neuroprosthetic-control-simulation
+title: Neuroprosthetic control simulation
+level: advanced
+objective: Model an intent-decoder feeding a simulated assistive controller with uncertainty and user override.
+prerequisite_skills:
+- neuroprosthetics-fundamentals
+- control-systems
+- robotics
+expected_hours: 24–40h
+inputs:
+- Synthetic decoded intents
+tools: Python, control/robotics simulation tools
+deliverables:
+- State machine
+- controller evaluation
+- latency/error report
+suggested_extensions:
+- Shared autonomy
+- disturbance modeling
+evaluation_criteria:
+- Explicit failure/stop state
+- uncertainty modeled
+- no unsafe actuation
+common_failure_modes:
+- Treating decoder output as ground truth
+safety: Simulation only; clinical use is out of scope.

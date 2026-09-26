@@ -1,0 +1,46 @@
+id: paper-speech-neuroprosthesis
+title: A high-performance speech neuroprosthesis
+authors:
+- Francis R. Willett
+- Erin M. Kunz
+- Chaofei Fan
+- Donald T. Avansino
+- Guy H. Wilson
+- Eun Young Choi
+- Foram Kamdar
+- Matthew F. Glasser
+- Leigh R. Hochberg
+- Shaul Druckmann
+- Krishna V. Shenoy
+- Jaimie M. Henderson
+year: 2023
+venue: Nature
+doi: 10.1038/s41586-023-06377-x
+url: https://pubmed.ncbi.nlm.nih.gov/37612500/
+level: advanced
+estimated_hours: 5–10h
+why_it_matters: A concrete modern example of high-dimensional intracortical speech decoding and an opportunity to
+  inspect task constraints, participant-specific results and evaluation.
+prerequisite_knowledge:
+- intracortical recording concepts
+- neural decoding
+- sequence modeling basics helpful
+research_question: How accurately and rapidly can attempted speech be decoded into text from intracortical neural
+  activity?
+method: Intracortical recordings from a participant with paralysis, with neural decoding for speech-to-text.
+dataset_or_participants: Single-participant intracortical neural recording study reported by the authors.
+major_result: The study demonstrated substantially improved speech decoding performance for the evaluated vocabularies
+  relative to prior reported systems.
+limitations: Single-participant evidence, task-specific evaluation and specialized invasive recording constraints
+  limit direct generalization.
+reproducibility_notes: The complete experimental system is not equivalent to a public benchmark. Focus on analysis
+  logic, evaluation choices and what information is actually observable from the signal.
+related_papers:
+- paper-wolpaw-bci
+- paper-bci2000
+learner_should_extract:
+- task definition
+- participant/sample limits
+- metrics
+- online vs offline evaluation
+- claims that do and do not generalize

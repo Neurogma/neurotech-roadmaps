@@ -1,0 +1,26 @@
+id: motor-imagery-pipeline
+title: Motor-imagery decoding pipeline
+domain: BCI
+level: advanced
+description: A complete, non-clinical motor-imagery EEG pipeline from public data
+  to a transparent decoder and subject-wise evaluation.
+learning_objectives:
+- Create a reproducible motor-imagery preprocessing pipeline.
+- Compare band-power or CSP-style features with a baseline classifier.
+- Report within-subject and cross-subject results separately.
+prerequisites:
+- eeg-preprocessing
+- neural-decoding
+- bci-fundamentals
+estimated_hours: "35\u201360"
+resources:
+- dataset-eegmmidb
+- software-moabb
+evidence:
+- project
+- reproducible_experiment
+- code_review
+common_misconceptions:
+- Motor-imagery decoding is equivalent to reading a participant intent in unconstrained
+  settings in unconstrained settings.
+exercise: Benchmark a simple motor-imagery classifier and record per-subject variance.

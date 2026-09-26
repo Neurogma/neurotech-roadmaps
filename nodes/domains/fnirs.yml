@@ -1,0 +1,23 @@
+id: fnirs
+title: fNIRS
+domain: fNIRS
+level: intermediate
+description: Domain capability for understanding fNIRS measurement, preprocessing
+  and hemodynamic interpretation.
+learning_objectives:
+- Explain how fNIRS infers hemodynamic changes from optical measurements.
+- Distinguish temporal limitations and scalp/systemic confounds from the neural process
+  being inferred.
+- Choose an appropriate public-data analysis question without treating oxygenation
+  as a direct electrical neural signal.
+prerequisites:
+- neuroimaging-fundamentals
+estimated_hours: "20\u201335"
+resources:
+- dataset-openneuro
+evidence:
+- quiz
+- explanation
+common_misconceptions:
+- fNIRS is not a direct electrical recording of action potentials.
+exercise: Create a one-page comparison or system diagram.

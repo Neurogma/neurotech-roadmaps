@@ -1,0 +1,58 @@
+id: computational-neuroscience
+title: I want to become a computational neuroscientist
+audience: Learners interested in mathematical and computational models of neural dynamics,
+  from simplified neurons to population data.
+prerequisites:
+- math-linear-algebra
+- math-calculus
+- python-scientific
+- neuroscience-basics
+destination_outcomes:
+- Implement and inspect dynamical models of neural activity.
+- Explain what model parameters mean and how assumptions limit interpretation.
+- Analyze simulated or public neural data with explicit uncertainty.
+estimated_hours:
+  explorer: "10\u201318"
+  builder: "80\u2013130"
+  researcher: "200\u2013350+"
+core_path:
+- math-linear-algebra
+- math-calculus
+- probability
+- statistics-inference
+- python-scientific
+- neuroscience-basics
+- physiology-neural
+- computational-neuroscience
+- spike-train-analysis
+- biophysical-models
+projects:
+- computational-neuron-simulation
+- spike-train-analysis
+- neural-data-science-analysis
+papers:
+- paper-hodgkin-huxley
+- paper-moabb-2018
+datasets:
+- dataset-dandi
+resources:
+- software-neuron
+- software-numpy
+- software-scipy
+starting_assumptions:
+- Basic algebra helps; calculus and linear algebra are taught explicitly before modeling.
+minimum_viable_path: Implement a leaky integrate-and-fire or comparable simple neuron
+  model, sweep parameters and explain the dynamics in a short technical note.
+deeper_path: Compare model classes, parameter identifiability, population dynamics,
+  data-model comparison and reproducible simulation studies.
+common_misconceptions:
+- A model that reproduces one phenomenon is not automatically an explanation of all
+  neural behavior.
+typical_failure_modes:
+- Choosing model complexity before defining the phenomenon, hiding parameters, and
+  confusing simulation output with measured data.
+research_directions:
+- Population dynamics, latent-variable models, mechanistic/statistical hybrids and
+  model-data comparison.
+next_steps: Move toward neural data science, neural decoding or a specific mechanistic
+  modeling literature.

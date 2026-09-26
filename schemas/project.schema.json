@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:neurotech-roadmaps:schema:project",
+  "title": "Project",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "level",
+    "objective",
+    "prerequisite_skills",
+    "inputs",
+    "tools",
+    "deliverables",
+    "evaluation_criteria"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 3
+    },
+    "level": {
+      "enum": [
+        "beginner",
+        "intermediate",
+        "advanced",
+        "research"
+      ]
+    },
+    "objective": {
+      "type": "string",
+      "minLength": 20
+    },
+    "prerequisite_skills": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "expected_hours": {
+      "type": "string",
+      "minLength": 2
+    },
+    "inputs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "tools": {
+      "type": "string",
+      "minLength": 2
+    },
+    "deliverables": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "suggested_extensions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "evaluation_criteria": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "common_failure_modes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "safety": {
+      "type": "string",
+      "minLength": 10
+    }
+  }
+}
