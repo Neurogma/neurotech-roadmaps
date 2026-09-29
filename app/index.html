@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#07080c" />
+  <meta name="description" content="Neurotech Atlas — an interactive interface for the Neurotech Roadmaps knowledge base." />
+  <title>Neurotech Atlas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="brand"><div class="brand-mark">N</div><div><strong>Neurotech</strong><span>ATLAS</span></div></div>
+      <nav id="nav">
+        <button class="nav-item active" data-view="overview"><span>⌂</span> Overview</button>
+        <button class="nav-item" data-view="roadmaps"><span>↗</span> Roadmaps</button>
+        <button class="nav-item" data-view="skills"><span>◈</span> Capability graph</button>
+        <button class="nav-item" data-view="projects"><span>◆</span> Projects</button>
+        <button class="nav-item" data-view="papers"><span>◎</span> Papers</button>
+        <button class="nav-item" data-view="library"><span>▦</span> Library</button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="mini-card"><span class="eyebrow">SOURCE</span><strong>Neurogma / neurotech-roadmaps</strong><small>Public • curated • evidence-first</small></div>
+        <a class="github-link" href="https://github.com/Neurogma/neurotech-roadmaps" target="_blank" rel="noreferrer">Open repository ↗</a>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <button class="mobile-brand" id="mobileMenu">☰</button>
+        <div class="crumb" id="crumb">Atlas / Overview</div>
+        <div class="top-actions">
+          <button class="icon-btn" id="focusSearch" aria-label="Search">⌕</button>
+          <button class="profile" id="resetProgress"><span class="pulse"></span><span>Local progress</span></button>
+        </div>
+      </header>
+
+      <section class="view active" id="view-overview">
+        <div class="hero">
+          <div class="hero-copy">
+            <div class="eyebrow accent">NEUROTECHNOLOGY • KNOWLEDGE ATLAS</div>
+            <h1>Everything you need to<br><em>navigate neurotech.</em></h1>
+            <p>Turn capabilities, prerequisites, projects, papers and resources into one navigable learning system — without losing the scientific provenance underneath.</p>
+            <div class="hero-actions">
+              <button class="primary" data-go="roadmaps">Explore a roadmap <span>→</span></button>
+              <button class="secondary" data-go="skills">Map the capability graph</button>
+            </div>
+          </div>
+          <div class="hero-orbit" aria-hidden="true">
+            <div class="orbit o1"></div><div class="orbit o2"></div><div class="orbit o3"></div>
+            <div class="core">N<span>TX</span></div>
+            <i class="node n1">EEG</i><i class="node n2">BCI</i><i class="node n3">ML</i><i class="node n4">ETH</i>
+          </div>
+        </div>
+
+        <div class="stats" id="stats"></div>
+
+        <div class="section-head"><div><span class="eyebrow">START ANYWHERE</span><h2>Choose your destination</h2></div><button class="text-btn" data-go="roadmaps">View all →</button></div>
+        <div class="roadmap-grid" id="featuredRoadmaps"></div>
+
+        <div class="split-callout">
+          <div><span class="eyebrow accent">THE SYSTEM</span><h2>Learn → build → prove → branch.</h2><p>The repository deliberately separates reusable capabilities from goal-driven roadmaps and evidence-producing projects. The Atlas makes those relationships visible while keeping the source of truth in the repository.</p></div>
+          <div class="flow"><div><b>01</b><span>Capability</span></div><div class="line"></div><div><b>02</b><span>Practice</span></div><div class="line"></div><div><b>03</b><span>Evidence</span></div></div>
+        </div>
+      </section>
+
+      <section class="view" id="view-roadmaps">
+        <div class="page-head"><div><span class="eyebrow accent">PATHFINDER</span><h1>Roadmaps</h1><p>Goal-driven paths built from the repository's canonical YAML and generated learning guides.</p></div><div class="view-tools"><div class="search"><span>⌕</span><input id="roadmapSearch" placeholder="Search destinations…" /></div></div></div>
+        <div class="roadmap-grid" id="allRoadmaps"></div>
+      </section>
+
+      <section class="view" id="view-skills">
+        <div class="page-head"><div><span class="eyebrow accent">CAPABILITY GRAPH</span><h1>Build the stack.</h1><p>Reusable capabilities are the atoms. Prerequisites determine what unlocks next.</p></div></div>
+        <div class="graph-layout">
+          <div class="graph-card" id="graph"></div>
+          <aside class="detail-card" id="skillDetail"><span class="eyebrow">SELECT A CAPABILITY</span><h2>Explore the map</h2><p>Pick a domain below to inspect the capability families represented in the repository.</p><div class="tag-cloud" id="skillTags"></div></aside>
+        </div>
+      </section>
+
+      <section class="view" id="view-projects">
+        <div class="page-head"><div><span class="eyebrow accent">EVIDENCE LAB</span><h1>Projects</h1><p>Concrete work that produces something you can inspect, reproduce and learn from.</p></div><div class="filter-row" id="projectFilters"></div></div>
+        <div class="project-grid" id="projectGrid"></div>
+      </section>
+
+      <section class="view" id="view-papers">
+        <div class="page-head"><div><span class="eyebrow accent">PRIMARY LITERATURE</span><h1>Paper guides</h1><p>Structured reading guides connecting influential papers to capabilities and methods.</p></div></div>
+        <div class="paper-list" id="paperList"></div>
+      </section>
+
+      <section class="view" id="view-library">
+        <div class="page-head"><div><span class="eyebrow accent">SOURCE LAYER</span><h1>Library & standards</h1><p>Browse the repository's underlying knowledge system and its maintenance boundaries.</p></div></div>
+        <div class="library-grid" id="libraryGrid"></div>
+      </section>
+    </main>
+  </div>
+
+  <dialog id="modal"><div class="modal-inner"><button class="close" id="closeModal">×</button><div id="modalContent"></div></div></dialog>
+  <div class="toast" id="toast"></div>
+  <script src="./app.js"></script>
+</body>
+</html>
