@@ -2,6 +2,12 @@
 
 A small, curated learning system for navigating neurotechnology by **capability** rather than by collecting links. A node tells you what to learn and what it depends on; a roadmap connects those capabilities to a goal; a project gives you evidence that you can use them.
 
+## Neurotech Atlas
+
+The repository now includes **Neurotech Atlas**, a dependency-free interactive UI for navigating the knowledge base as a product: roadmap discovery, capability-family graph, evidence projects, paper guides and the underlying source library.
+
+Open `app/index.html` locally, or read the [app documentation](app/README.md).
+
 ## Start with a goal
 
 | Goal | Roadmap | Typical starting point |
@@ -37,6 +43,7 @@ Depth labels describe the knowledge required, not a learner's status. Completing
 ## Repository structure
 
 ```text
+app/            Neurotech Atlas presentation layer
 roadmaps/       goal-driven paths; YAML is canonical, Markdown is generated
 nodes/          one YAML file per reusable capability
 projects/       evidence-producing project specifications
